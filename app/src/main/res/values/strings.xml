@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_movie_text">Movie</string>
+    <string name="tab_tv_show_text">Tv Show</string>
+    <string name="tv_show">TvShow</string>
+    <string name="movie">Movie</string>
+    <string name="title">Judul</string>
+    <string name="poster">Poster</string>
+    <string name="overview">Overview</string>
+    <string name="director">Director</string>
+    <string name="release_date">Tanggal Rilis</string>
+    <string name="runtime">Durasi</string>
+    <string name="genre">Genre</string>
+
+</resources>
