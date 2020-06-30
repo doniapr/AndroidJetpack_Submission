@@ -1,6 +1,6 @@
 package com.doniapr.moviecatalogue.tvshow
 
-import com.doniapr.moviecatalogue.movie.MovieViewModel
+import com.doniapr.moviecatalogue.ui.tvshow.TvShowViewModel
 import org.junit.Before
 import org.junit.Test
 
