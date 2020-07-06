@@ -1,6 +1,6 @@
 package com.doniapr.moviecatalogue.movie
 
-import com.doniapr.moviecatalogue.data.Movie
+import com.doniapr.moviecatalogue.ui.movie.MovieViewModel
 import org.junit.Assert.*
 import org.junit.Before
 import org.junit.Test
