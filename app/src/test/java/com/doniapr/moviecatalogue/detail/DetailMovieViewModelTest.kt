@@ -1,14 +1,14 @@
 package com.doniapr.moviecatalogue.detail
 
-import com.doniapr.moviecatalogue.ui.detail.DetailViewModel
+import com.doniapr.moviecatalogue.ui.detail.DetailMovieViewModel
 import com.doniapr.moviecatalogue.utils.GenerateData
 import org.junit.Before
 import org.junit.Test
 
 import org.junit.Assert.*
 
-class DetailViewModelTest {
-    private lateinit var viewModel: DetailViewModel
+class DetailMovieViewModelTest {
+    private lateinit var viewModel: DetailMovieViewModel
     private val movie = GenerateData.generateMovieData()[0]
     private val movieTitle = movie.title
     private val tvShow = GenerateData.generateTvShowData()[0]
@@ -16,7 +16,7 @@ class DetailViewModelTest {
 
     @Before
     fun setUp() {
-        viewModel = DetailViewModel()
+        viewModel = DetailMovieViewModel()
     }
 
     @Test

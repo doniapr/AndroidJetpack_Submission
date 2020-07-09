@@ -14,5 +14,14 @@
     <string name="release_date">Tanggal Rilis</string>
     <string name="runtime">Durasi</string>
     <string name="genre">Genre</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="popular_movie">Popular Movie</string>
+    <string name="upcoming_movie">Upcoming Movie</string>
+    <string name="on_air">On Air</string>
+    <string name="airing_today">Airing Today</string>
+    <string name="popular_tv_show">Popular Tv Show</string>
+    <string name="review">Review</string>
+    <string name="no_review">Belum ada review</string>
+    <string name="author">author</string>
 
 </resources>
