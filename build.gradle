@@ -36,6 +36,8 @@ ext {
     espressoVersion = '3.2.0'
     archLifecycleVersion = '2.2.0'
     androidXTestVersion = '1.2.0'
+    mockitoKotlinVersion = '2.1.0'
+    mockitoVersion = '3.0.0'
 
     materialVersion = '1.1.0'
     legacySupportVersion='1.0.0'

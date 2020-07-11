@@ -11,7 +11,7 @@ import kotlinx.android.synthetic.main.item_review.view.*
 class ReviewAdapter : RecyclerView.Adapter<ReviewAdapter.ReviewViewHolder>() {
     private var reviews: List<Review> = ArrayList()
 
-    fun setData(reviews: List<Review>){
+    fun setData(reviews: List<Review>) {
         this.reviews = reviews
         notifyDataSetChanged()
     }
@@ -27,9 +27,9 @@ class ReviewAdapter : RecyclerView.Adapter<ReviewAdapter.ReviewViewHolder>() {
         holder.bind(reviews[position])
     }
 
-    class ReviewViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
-        fun bind(review: Review){
-            with(itemView){
+    class ReviewViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+        fun bind(review: Review) {
+            with(itemView) {
                 tv_review_author.text = review.author
                 tv_review_content.text = review.content
             }

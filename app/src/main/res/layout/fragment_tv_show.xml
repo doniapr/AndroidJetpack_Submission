@@ -27,6 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="?android:attr/progressBarStyle"
+            android:layout_gravity="center_horizontal"
             android:visibility="gone"/>
 
         <androidx.recyclerview.widget.RecyclerView
@@ -51,6 +52,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="?android:attr/progressBarStyle"
+            android:layout_gravity="center_horizontal"
             android:visibility="gone"/>
 
         <androidx.recyclerview.widget.RecyclerView
@@ -75,6 +77,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="?android:attr/progressBarStyle"
+            android:layout_gravity="center_horizontal"
             android:visibility="gone"/>
 
         <androidx.recyclerview.widget.RecyclerView

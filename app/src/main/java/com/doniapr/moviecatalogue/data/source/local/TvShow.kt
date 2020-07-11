@@ -1,7 +1,10 @@
 package com.doniapr.moviecatalogue.data.source.local
 
+import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
+import kotlinx.android.parcel.Parcelize
 
+@Parcelize
 data class TvShow(
     @SerializedName("id")
     var id: String? = null,
@@ -33,4 +36,4 @@ data class TvShow(
     var numberOfEpisodes: String? = null,
     @SerializedName("number_of_seasons")
     var numberOfSeasons: String? = null
-)
+):Parcelable

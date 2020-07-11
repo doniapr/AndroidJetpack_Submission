@@ -7,18 +7,16 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bumptech.glide.Glide
+import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.doniapr.moviecatalogue.BuildConfig
 import com.doniapr.moviecatalogue.R
 import com.doniapr.moviecatalogue.data.source.local.Movie
-import com.doniapr.moviecatalogue.data.source.local.Review
 import com.doniapr.moviecatalogue.di.ViewModelMovieFactory
 import kotlinx.android.synthetic.main.activity_detail_movie.*
-import kotlinx.android.synthetic.main.fragment_movie.*
-import kotlinx.android.synthetic.main.item_layout.*
 
 class DetailMovieActivity : AppCompatActivity() {
 
-    private var detailId: String? = null
+    private var detailMovie: Movie? = null
     private lateinit var contentMovie: Movie
 
     companion object {
@@ -35,7 +33,11 @@ class DetailMovieActivity : AppCompatActivity() {
         }
 
         val intent = intent
-        detailId = intent.getStringExtra(DETAIL_ID)
+        detailMovie = intent.getParcelableExtra(DETAIL_ID)
+        title_detail_movie.text = detailMovie?.title
+        Glide.with(this).load(BuildConfig.BASE_URL_IMAGE + detailMovie?.posterPath)
+            .transition(DrawableTransitionOptions.withCrossFade())
+            .placeholder(R.drawable.poster_placeholder).into(img_poster_detail)
 
         val reviewAdapter = ReviewAdapter()
         val factory = ViewModelMovieFactory.getInstance()
@@ -46,15 +48,15 @@ class DetailMovieActivity : AppCompatActivity() {
 
         progress_bar_detail_movie.visibility = View.VISIBLE
         progress_bar_review_movie.visibility = View.VISIBLE
-        if (detailId != null) {
-            detailViewModel.getDetailMovie(detailId!!).observe(this, Observer {
+        if (detailMovie?.id != null) {
+            detailViewModel.getDetailMovie(detailMovie?.id!!).observe(this, Observer {
                 contentMovie = it
                 progress_bar_detail_movie.visibility = View.GONE
                 setContent()
             })
 
-            detailViewModel.getReview(detailId!!).observe(this, Observer {
-                if (it != null && it.isNotEmpty()){
+            detailViewModel.getReview(detailMovie?.id!!).observe(this, Observer {
+                if (it != null && it.isNotEmpty()) {
                     reviewAdapter.setData(it)
                     reviewAdapter.notifyDataSetChanged()
                 } else {
@@ -73,20 +75,21 @@ class DetailMovieActivity : AppCompatActivity() {
 
     private fun setContent() {
         setActionbarTitle("${contentMovie.title}")
-        val title = "${contentMovie.title} (${contentMovie.releaseDate?.slice(0..3)})"
+        val detailTitle = "${contentMovie.title} (${contentMovie.releaseDate?.slice(0..3)})"
         val runtime = "${contentMovie.runtime} menit"
 
         Glide.with(this).load(BuildConfig.BASE_URL_IMAGE + contentMovie.posterPath)
-            .placeholder(R.drawable.poster_placeholder).into(img_poster_detail)
+            .into(img_poster_detail)
         Glide.with(this).load(BuildConfig.BASE_URL_IMAGE + contentMovie.backdropPath)
-            .placeholder(R.drawable.poster_placeholder).into(img_banner_movie)
+            .placeholder(R.drawable.poster_placeholder)
+            .transition(DrawableTransitionOptions.withCrossFade()).into(img_banner_movie)
         txt_content_overview.text = contentMovie.overview
         txt_content_release_date.text = contentMovie.releaseDate
         txt_content_runtime.text = runtime
-        title_detail_movie.text = title
+        title_detail_movie.text = detailTitle
 
         var listGenre = ""
-        for (genre in contentMovie.genres!!){
+        for (genre in contentMovie.genres!!) {
             listGenre = "${listGenre}${genre.name}\n"
         }
         txt_genre_detail.text = listGenre

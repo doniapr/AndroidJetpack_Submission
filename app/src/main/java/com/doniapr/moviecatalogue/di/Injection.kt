@@ -11,7 +11,7 @@ object Injection {
         return MovieRepository.getInstance(remoteDataSource)
     }
 
-    fun provideTShowRepository(): TvShowRepository {
+    fun provideTvShowRepository(): TvShowRepository {
         val remoteDataSource = RemoteDataSource()
 
         return TvShowRepository.getInstance(remoteDataSource)

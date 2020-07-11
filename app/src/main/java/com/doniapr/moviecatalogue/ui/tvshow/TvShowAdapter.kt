@@ -1,7 +1,6 @@
 package com.doniapr.moviecatalogue.ui.tvshow
 
 import android.content.Intent
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -19,7 +18,7 @@ class TvShowAdapter : RecyclerView.Adapter<TvShowAdapter.TvShowViewHolder>() {
 
     private var tvShows: List<TvShow> = ArrayList()
 
-    fun setData(tvShows: List<TvShow>){
+    fun setData(tvShows: List<TvShow>) {
         this.tvShows = tvShows
     }
 
@@ -40,11 +39,9 @@ class TvShowAdapter : RecyclerView.Adapter<TvShowAdapter.TvShowViewHolder>() {
     class TvShowViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun bind(tvShow: TvShow) {
             with(itemView) {
-
-                Log.e("TVSHOW", tvShow.title!!)
                 this.setOnClickListener {
                     val intent = Intent(context, DetailTvShowActivity::class.java).apply {
-                        putExtra(DetailMovieActivity.DETAIL_ID, tvShow.id)
+                        putExtra(DetailMovieActivity.DETAIL_ID, tvShow)
                     }
                     itemView.context?.startActivity(intent)
                 }

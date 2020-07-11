@@ -1,13 +1,13 @@
 package com.doniapr.moviecatalogue.di
 
-import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.doniapr.moviecatalogue.data.MovieRepository
 import com.doniapr.moviecatalogue.ui.detail.DetailMovieViewModel
 import com.doniapr.moviecatalogue.ui.movie.MovieViewModel
 
-class ViewModelMovieFactory private constructor(private val movieRepository: MovieRepository): ViewModelProvider.NewInstanceFactory() {
+class ViewModelMovieFactory private constructor(private val movieRepository: MovieRepository) :
+    ViewModelProvider.NewInstanceFactory() {
     companion object {
         @Volatile
         private var instance: ViewModelMovieFactory? = null
