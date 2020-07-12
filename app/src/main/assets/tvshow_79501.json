@@ -1,0 +1,119 @@
+{
+    "backdrop_path": "/rqHL4HsLCix9H6vhCwAuSOge0NS.jpg",
+    "created_by": [
+        {
+            "id": 1225971,
+            "credit_id": "5c797bef0e0a2611de0fa17b",
+            "name": "Jeremy Carver",
+            "gender": 2,
+            "profile_path": "/4nrMC0wnxiSjYzD5h5L3zSW1SXW.jpg"
+        }
+    ],
+    "episode_run_time": [
+        49
+    ],
+    "first_air_date": "2019-02-15",
+    "genres": "Sci-Fi & Fantasy, Action & Adventure",
+    "homepage": "https://www.dcuniverse.com/videos/doom-patrol/181",
+    "id": 79501,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2020-07-09",
+    "last_episode_to_air": {
+        "air_date": "2020-07-09",
+        "episode_number": 5,
+        "id": 2313468,
+        "name": "Finger Patrol",
+        "overview": "Dorothy finds a friend in Baby Doll, while Vic looks to win Roni back. With Rita’s help, Larry finally tries to break the ice with his family.",
+        "production_code": "T50.10305",
+        "season_number": 2,
+        "show_id": 79501,
+        "still_path": "/vkR1S98uMSSFj2Vb6E3kvRAEX6a.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Doom Patrol",
+    "next_episode_to_air": {
+        "air_date": "2020-07-16",
+        "episode_number": 6,
+        "id": 2313469,
+        "name": "Space Patrol",
+        "overview": "",
+        "production_code": "",
+        "season_number": 2,
+        "show_id": 79501,
+        "still_path": "/c93l1Q7CEzIn0w6zFYjXDQQL00a.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "networks": [
+        {
+            "name": "DC Universe",
+            "id": 2243,
+            "logo_path": "/eOL4PkiC0zkDpxKFQhBnmCtwx5p.png",
+            "origin_country": "US"
+        },
+        {
+            "name": "HBO Max",
+            "id": 3186,
+            "logo_path": "/nmU0UMDJB3dRRQSTUqawzF2Od1a.png",
+            "origin_country": "US"
+        }
+    ],
+    "number_of_episodes": 23,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Doom Patrol",
+    "overview": "The Doom Patrol’s members each suffered horrible accidents that gave them superhuman abilities — but also left them scarred and disfigured. Traumatized and downtrodden, the team found purpose through The Chief, who brought them together to investigate the weirdest phenomena in existence — and to protect Earth from what they find.",
+    "popularity": 49.644,
+    "poster_path": "/drlfSCIlMKrEeMPhi8pqY4xGxj.jpg",
+    "production_companies": [
+        {
+            "id": 105514,
+            "logo_path": null,
+            "name": "Mad Ghost Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 27711,
+            "logo_path": "/3e294jszfE6cE8TOogmj0zNd6pL.png",
+            "name": "Berlanti Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 1957,
+            "logo_path": "/nmcNfPq03WLtOyufJzQbiPu2Enc.png",
+            "name": "Warner Bros. Television",
+            "origin_country": "US"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2019-02-15",
+            "episode_count": 15,
+            "id": 114697,
+            "name": "Season 1",
+            "overview": "Set after the events of Titans, the Doom Patrol – consisting of Robotman, Negative Man, Elasti-Woman, and Crazy Jane, and led by Dr. Niles Caulder / The Chief – receive a mission from Cyborg that they cannot ignore and will change their lives.",
+            "poster_path": "/nVN7Dt0Xr78gnJepRsRLaLYklbY.jpg",
+            "season_number": 1
+        },
+        {
+            "air_date": "2020-06-25",
+            "episode_count": 8,
+            "id": 150849,
+            "name": "Season 2",
+            "overview": "The members of the Doom Patrol now find themselves mini-sized and stranded on Cliff’s toy race car track. Here they begin to deal with their feelings of betrayal by Niles Caulder aka The Chief, while confronting their own personal baggage. And as each member faces the challenge of growing beyond their own past traumatic experiences, they must come together to embrace and protect the newest member of the family: Dorothy Spinner, Niles’ daughter, whose powers remain a mysterious but real threat to bringing on the end of the world.",
+            "poster_path": "/drlfSCIlMKrEeMPhi8pqY4xGxj.jpg",
+            "season_number": 2
+        }
+    ],
+    "status": "Returning Series",
+    "type": "Scripted",
+    "vote_average": 7.3,
+    "vote_count": 482
+}

@@ -1,0 +1,368 @@
+{
+    "backdrop_path": "/73vNiJs4j33A8Oieu0DhSnPTJj8.jpg",
+    "created_by": [
+        {
+            "id": 553254,
+            "credit_id": "52573f1a19c29531db06fb1d",
+            "name": "Shōtarō Ishinomori",
+            "gender": 2,
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        30
+    ],
+    "first_air_date": "1971-04-03",
+    "genres": "Action & Adventure, Drama, Sci-Fi & Fantasy",
+    "homepage": "",
+    "id": 2661,
+    "in_production": true,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2020-07-05",
+    "last_episode_to_air": {
+        "air_date": "2020-07-05",
+        "episode_number": 37,
+        "id": 2328207,
+        "name": "No One Can Stop It",
+        "overview": "Ark sends Naki to pay a visit to Gai; the vice president of Hiden enacts a plan to take back the company.",
+        "production_code": "",
+        "season_number": 30,
+        "show_id": 2661,
+        "still_path": "/5RYUPD4PbRTMLPfHUS7yDSFyGWP.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Kamen Rider",
+    "next_episode_to_air": {
+        "air_date": "2020-07-12",
+        "episode_number": 38,
+        "id": 2337480,
+        "name": "I Am 1000% Your Friend",
+        "overview": "",
+        "production_code": "",
+        "season_number": 30,
+        "show_id": 2661,
+        "still_path": "/3uHK8ov15vxPDpjtcSs0bWimNY2.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "networks": [
+        {
+            "name": "tv asahi",
+            "id": 103,
+            "logo_path": "/usmwgnOfBWuzet8vdWe3dfxXlNc.png",
+            "origin_country": "JP"
+        }
+    ],
+    "number_of_episodes": 1455,
+    "number_of_seasons": 30,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "仮面ライダ",
+    "overview": "A Japanese anthology series centered around a man who transforms into a bug-themed superhero.",
+    "popularity": 77.483,
+    "poster_path": "/o57T19zgZakEpre3d9ddy1UZonp.jpg",
+    "production_companies": [
+        {
+            "id": 9300,
+            "logo_path": "/9sSD1XufVCJWAadNiC9Mwu994VD.png",
+            "name": "tv asahi",
+            "origin_country": "JP"
+        },
+        {
+            "id": 5822,
+            "logo_path": "/qyTbRgCyU9NLKvKaiQVbadtr7RY.png",
+            "name": "Toei Company, Ltd.",
+            "origin_country": "JP"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2016-10-03",
+            "episode_count": 22,
+            "id": 129966,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/ya6jBmRwfGLV5k1qAdM1wIetnMi.jpg",
+            "season_number": 0
+        },
+        {
+            "air_date": "1971-04-03",
+            "episode_count": 98,
+            "id": 64046,
+            "name": "Kamen Rider",
+            "overview": "Kamen Rider follows Takeshi Hongo and later, Hayato Ichimonji, both were turned into cyborgs by the evil organization called Shocker, but managed to escape before they were brainwashed by them. With the help of Tobei Tachibana and their friends, they fight the evil Shocker and later, GelShocker from their plans of world domination as Kamen Rider!",
+            "poster_path": "/b9WsMwy59RL9Y6BpzaTqZUrTlUy.jpg",
+            "season_number": 1
+        },
+        {
+            "air_date": "1973-02-17",
+            "episode_count": 52,
+            "id": 64047,
+            "name": "V3",
+            "overview": "This series followed Shiro Kazami on his quest to gain revenge against Destron, the group that murdered his family. Later on, Riderman, the fourth Kamen Rider is introduced as the first long term anti-hero Kamen Rider. The original two Kamen Riders also make various appearances over the course of the series to help Kazami.",
+            "poster_path": "/3gJhzRS3hOfhyUejuX0lgVnMzxv.jpg",
+            "season_number": 2
+        },
+        {
+            "air_date": "1974-02-16",
+            "episode_count": 35,
+            "id": 64048,
+            "name": "X",
+            "overview": "Robotics scientist Keitaro Jin and his son Keisuke become caught up in the campaign of terror by an evil organization known as \"G.O.D.\". They are attacked and the professor's technology stolen, but before Keitaro dies, he is still able to perform surgery on his son. With the very last of his robotics technology, he transforms his son into \"Kamen Rider X\". To avenge his father's death and ensure the safety of the entire world, Keisuke uses this technology as he battles the monstrous minions of G.O.D.",
+            "poster_path": "/gYDgx3SC9WPdq1ytcRPM3QeGZsA.jpg",
+            "season_number": 3
+        },
+        {
+            "air_date": "1974-10-19",
+            "episode_count": 24,
+            "id": 64049,
+            "name": "Amazon",
+            "overview": "Inheriting the ancient Incan super-energy, wild child Amazon flew over the Pacific to his far and distant homeland of Japan to stop the evil ambitions of the Geddon and the Garanda Empire!",
+            "poster_path": "/oPHxgniTBqMelkPNzpt3wS9pE1H.jpg",
+            "season_number": 4
+        },
+        {
+            "air_date": "1975-04-05",
+            "episode_count": 39,
+            "id": 64050,
+            "name": "Stronger",
+            "overview": "Shigeru Jo joins the evil organization Black Satan after the death of his close friend Goro Numata, who he considered his mentor. He, promised power, and fueled by a desire for revenge, undergoes surgery to become one of Black Satan's super warriors. However, Shigeru knows that Black Satan were in fact the murderers of his friend; he was using Black Satan in order to gain new powers. The newly powered up Shigeru escapes from the Black Satan headquarters before they can brainwash him into following their campaign of evil and becomes Kamen Rider Stronger. While escaping from Black Satan, Stronger meets Yuriko Misaki another cyborg warrior created by Black Satan who has the ability to transform into Electro-Wave Human Tackle. Together they fight the evil Black Satan and later the Delza Army to restore peace in Japan.",
+            "poster_path": "/1D6WfxM43JtDQRf5Hyq1v0mqWSC.jpg",
+            "season_number": 5
+        },
+        {
+            "air_date": "1979-10-05",
+            "episode_count": 54,
+            "id": 64051,
+            "name": "Sky Rider",
+            "overview": "Doctor Keitarō Shido, an acclaimed scientist, has been kidnapped by the terrorist organization Neo-Shocker in order to exploit his expertise in robotics technology. Desperate to escape, he convinces Neo-Shocker command to allow him to operate on an injured camper. Explaining that he can turn the camper, Hiroshi Tsukuba into a powerful Neo-Shocker warrior, they allow Doctor Shido to operate. However, he quickly turns the tables on them, transforming Hiroshi not into an evil monster, but into the powerful warrior Skyrider, using his new found abilities to combat the evil Neo-Shocker menace.",
+            "poster_path": "/9TXokbSyXL2SDHXPAdxpTzsiwg1.jpg",
+            "season_number": 6
+        },
+        {
+            "air_date": "1980-10-16",
+            "episode_count": 48,
+            "id": 64052,
+            "name": "Super-1",
+            "overview": "Kazuya Oki volunteers to undergo cybernetic surgery in the International Space Development Program in the United States in order to become an astronaut who can survive in outer space without the need for a bulky external suit. After a successful operation, he is given the codename \"Super-1\". Before he can depart for space, however, the base where he received his operation is attacked by the Dogma Kingdom. Only Kazuya is able to escape and determined to avenge the deaths of the scientists, he returns to Japan and is trained by a martial arts expert, Master Genkai. With this knowledge, he is able to transform into the powerful Kamen Rider Super-1 to fight the evil Dogma Kingdom and later the Jin Dogma.",
+            "poster_path": "/ofjTSnuhDEYziVSDPJ2JGS4SkKS.jpg",
+            "season_number": 7
+        },
+        {
+            "air_date": "1987-10-04",
+            "episode_count": 56,
+            "id": 64053,
+            "name": "Black",
+            "overview": "After being kidnapped by the cult Gorgom on the night of their 19th birthday, stepbrothers Kotaro Minami and Nobuhiko Akizuki are submitted to a mutant surgery with the purpose of becoming the candidates to be the next Creation King. Kotaro escapes before the brainwashing, with help from his foster father, and turned against Gorgom. He soon finds out the horrific truth from his stepfather: Gorgom originally killed his true parents. Later on, Kamen Rider Black must battle with his brother, who has become the trump card of Gorgom, Shadow Moon.",
+            "poster_path": "/x2DycgGH0bfqQhQlvjDPuihlAv2.jpg",
+            "season_number": 8
+        },
+        {
+            "air_date": "1988-10-23",
+            "episode_count": 47,
+            "id": 64054,
+            "name": "Black RX",
+            "overview": "A month after the defeat of Gorgom, Minami Kotaro is kidnapped by the Crisis Empire. After refusing to join them, he is thrown out into space where he undergoes the change to become Kamen Rider Black RX.",
+            "poster_path": "/k4wDce95FFLbQ1kDp52SffzfLnT.jpg",
+            "season_number": 9
+        },
+        {
+            "air_date": "2000-01-30",
+            "episode_count": 49,
+            "id": 64055,
+            "name": "Kuuga",
+            "overview": "Revived from ancient ruins, the Gurongi Tribe began to terrorize the people. Godai Yusuke, an adventurer, equips the combat tool of Arcle, and bears his destiny as a Kuuga warrior.",
+            "poster_path": "/gO0HsIVg9mVVa76fNOcHJI8U7CV.jpg",
+            "season_number": 10
+        },
+        {
+            "air_date": "2001-01-27",
+            "episode_count": 51,
+            "id": 64056,
+            "name": "Agito",
+            "overview": "A man with amnesia, Tsugami Shoichi, is awoken to his powers of Agito. With Hikawa Makoto (man who equips G3) and Ashihara Ryo (transforms into Gills), he is at the mercy of his destiny.",
+            "poster_path": "/lFVRM5BurGly2K9Y4y9jE438Qkq.jpg",
+            "season_number": 11
+        },
+        {
+            "air_date": "2002-02-03",
+            "episode_count": 50,
+            "id": 64057,
+            "name": "Ryuki",
+            "overview": "Thirteen Card Decks were created for thirteen Kamen Riders. They make Contracts with monsters from the mysterious Mirror World, a parallel dimension opposite to our own in which only the Kamen Riders can exist. The Riders draw on their monsters' strength in exchange for feeding them the life force of the creatures they destroy. The creator of the Advent Cards has only one rule: that there can be only one Kamen Rider. The others must be killed, and the sole victor will be granted a single wish, which leads to a conflict known as the Rider War.",
+            "poster_path": "/rDWLxUCStcKgSzTutmdv6F4uQHy.jpg",
+            "season_number": 12
+        },
+        {
+            "air_date": "2003-01-26",
+            "episode_count": 50,
+            "id": 64058,
+            "name": "555",
+            "overview": "While travelling, Inui Takumi is involved in an incident revolving around what is known as Faiz Gear. Before long, he awakens into a rider that fights the Orphnoch. However, he himself was also an Orphnoch.",
+            "poster_path": "/gOE2ofhDj6Za5i7pwBhz9ZIAsN4.jpg",
+            "season_number": 13
+        },
+        {
+            "air_date": "2004-01-25",
+            "episode_count": 49,
+            "id": 64059,
+            "name": "Blade",
+            "overview": "Ten thousand years ago, fifty-two demons—the Undead—partook in a Battle Royal to decide which species would inherit the Earth. The winner was the Human Undead, and thus dominion of the Earth was given to Humanity.\n\nIn the present day, archeologists discovered the sealed Undead, and accidentally released them. To counter this threat, the Board Of Archaeological Research Department–BOARD–equips two young men with the Rider System. As a new Battle Royal begins, who will emerge the victor?",
+            "poster_path": "/jhp0zxbvLAEvMA54E2WGW6o1BWN.jpg",
+            "season_number": 14
+        },
+        {
+            "air_date": "2005-01-30",
+            "episode_count": 48,
+            "id": 64060,
+            "name": "Hibiki",
+            "overview": "The Kamen Riders, known as Oni, battle man eating beasts called Makamou with \"pure sound\". One of the Oni, a man named Hibiki ends up having a teacher and apprentice-like relationship with Asumu Adachi. A young boy unsure of himself and is at a crossroads in his life as he transitions to high school, Asumu learns to be an adult through watching Hibiki and the other Oni as they all train together to hone their skills in fighting the Makamou and the homunculi aiding them. However, the sudden raise of Makamou numbers proves to be a prelude to an upcoming calamity.",
+            "poster_path": "/ueiKZ2vBFBSZH8MIdb037dqJAH0.jpg",
+            "season_number": 15
+        },
+        {
+            "air_date": "2006-01-29",
+            "episode_count": 50,
+            "id": 64061,
+            "name": "Kabuto",
+            "overview": "Using the Masked Rider System developed by the secret organization of ZECT, Tendo Soji fights the Worm, extraterrestrial life forms that murder and mimic human beings.",
+            "poster_path": "/nXmi2ejmyw7n3pCCPzIOzpcLZyv.jpg",
+            "season_number": 16
+        },
+        {
+            "air_date": "2007-01-28",
+            "episode_count": 49,
+            "id": 64062,
+            "name": "Den-O",
+            "overview": "One day out of the blue, a faint-hearted boy named Ryōtarō Nogami picks up a pass to the time-travelling train, Den Liner. Ryōtarō then becomes Kamen Rider Den-O to fight the invaders from the future, Imagin.",
+            "poster_path": "/w3t4tRJPyyGmGziHxhJMWrH0t6t.jpg",
+            "season_number": 17
+        },
+        {
+            "air_date": "2008-01-27",
+            "episode_count": 48,
+            "id": 64063,
+            "name": "Kiva",
+            "overview": "Twenty-two years after the disappearance of his father, Wataru Kurenai lives in an infamous \"haunted house\" where he is destined as Kamen Rider Kiva to fight life-draining monsters called Fangires, the very race his father fought years ago before his disappearance. Wataru must also deal with Kamen Rider Ixa who is part of an organization seeking to destroy the Fangire menace, as well as the Fangires' own Rider, Kamen Rider Saga. The story is split between the actions of Wataru in the present (2008-09) and his father Otoya in the past (1986-87), slowly revealing the link between the Fangire Race and Kiva.",
+            "poster_path": "/vf53cLLwZT1lKAnqOXqpIjpNo1l.jpg",
+            "season_number": 18
+        },
+        {
+            "air_date": "2009-01-25",
+            "episode_count": 33,
+            "id": 64064,
+            "name": "Decade",
+            "overview": "Many of parallel worlds were merging to bring a great catastrophe; Kamen Rider Decade travels around the worlds to prevent it with exploiting all the other Kamen Rider’s skills.",
+            "poster_path": "/uarswq78x8BCaNKJoC83JKhtEh2.jpg",
+            "season_number": 19
+        },
+        {
+            "air_date": "2009-09-06",
+            "episode_count": 49,
+            "id": 64065,
+            "name": "W",
+            "overview": "A detective, proclaiming himself to be hard boiled, and a mysterious boy who is connected to “Memory of Gaia” together morph into Kamen Rider W. They protect their city “Futo” from crimes caused by “Gaia memory”.",
+            "poster_path": "/xHnkVKa2gbpqqnT95uOGBJnSAD3.jpg",
+            "season_number": 20
+        },
+        {
+            "air_date": "2010-09-05",
+            "episode_count": 48,
+            "id": 64066,
+            "name": "OOO",
+            "overview": "Coin-based homunculi known as the Greeed have awoken from an 800-year slumber! The only hope of stopping them in their pursuit of human desires is a rogue Greeed named Ankh, reduced to the form of a disembodied arm, and the wandering hermit Eiji Hino.\n\nPresented with a belt and three Core Medals, Eiji steps forward as the champion of human desire - Kamen Rider OOO!",
+            "poster_path": "/AloMei4rLWIXwZa2HIlGmycN84.jpg",
+            "season_number": 21
+        },
+        {
+            "air_date": "2011-09-04",
+            "episode_count": 48,
+            "id": 64067,
+            "name": "Fourze",
+            "overview": "Amanogawa High School is no stranger to high-school drama, but what happens when that drama involves monsters?! Enter yankee-styled transfer student Gentaro Kisaragi and the Kamen Rider Club, combatting the threat of the Zodiarts threatening their school days as Kamen Rider Fourze!",
+            "poster_path": "/w8E0E9yBfEvVD7EAZZoUArxHMXr.jpg",
+            "season_number": 22
+        },
+        {
+            "air_date": "2012-09-02",
+            "episode_count": 53,
+            "id": 64068,
+            "name": "Wizard",
+            "overview": "Man with a strong magic power is called as “Gate” and Phantoms seek and attack them. Kamen Rider Wizard / Haruto Souma, himself was also a “Gate”, fights for a hope of people with a power of Phantoms within.",
+            "poster_path": "/rqkSStY5o3ClgwFVUp0oxco42Lm.jpg",
+            "season_number": 23
+        },
+        {
+            "air_date": "2013-10-06",
+            "episode_count": 47,
+            "id": 64069,
+            "name": "Gaim",
+            "overview": "The world was eroded by Helheim and the nationwide Yggdrasil Corporation conspires to sacrifice the majority of human being. Mysterious fruits of Helheim give Kouta Kazuraba a power to morph into Kamen Rider Gaim.",
+            "poster_path": "/1Kmsu7fsnsUEFqKsCBMQf5PvLBy.jpg",
+            "season_number": 24
+        },
+        {
+            "air_date": "2014-10-05",
+            "episode_count": 48,
+            "id": 64070,
+            "name": "Drive",
+            "overview": "On April 8th, 2014, the world came to a standstill. Hundreds were killed by the sudden assault of the mechanical life forms, Roidmudes. The event became known as the Global Freeze, and the effect referred to as 'Density Shift'. Six months later...\n\nFormer police officer Shinnosuke Tomari is demoted to the Special Investigations Division - a group investigating the Density Shift events. When he is chosen by the Drive Driver, Shinnosuke transforms into Kamen Rider Drive, and is tasked with battling and destroying the 108 Roidmudes, before they can eliminate the human race.",
+            "poster_path": "/8voQvHcZ61CSPM6TwbmCiJQjxv1.jpg",
+            "season_number": 25
+        },
+        {
+            "air_date": "2015-10-04",
+            "episode_count": 50,
+            "id": 69800,
+            "name": "Ghost",
+            "overview": "Takeru Tenkuuji was murdered by evil Ganma. He has to collect fifteen Eyecons to bring himself back to life. With learning the souls of heroes inside of Eyecons, he saves the people around.",
+            "poster_path": "/ziSSRIHIz5Itfqsq6ysUFmFAbTl.jpg",
+            "season_number": 26
+        },
+        {
+            "air_date": "2016-10-02",
+            "episode_count": 45,
+            "id": 78368,
+            "name": "Ex-Aid",
+            "overview": "The Bugster virus - a new type of virus that slowly takes over its host, before converting them fully into a virtual creature known as a Bugster. The only form of combat against this viral threat are the Kamen Riders of the Computer Rescue Center, a secretive medical team working for the Ministry of Health.\n\nEnter Emu Houjou, a pediatrics intern and a genius gamer, who stumbles into the fight against the Bugsters as Kamen Rider Ex-Aid!",
+            "poster_path": "/nrtskLgwiaSz6P8cU8yCF9hoens.jpg",
+            "season_number": 27
+        },
+        {
+            "air_date": "2017-09-02",
+            "episode_count": 49,
+            "id": 78420,
+            "name": "Build",
+            "overview": "10 years after the Pandora's Box disaster divided Japan into three separate nations, unidentified lifeforms called 'SMASH' have appeared.\n\nTo fight them, a prodigy physicist with no memory utilises the Full Bottles to transform himself. This man is Sento Kiryu, Kamen Rider Build.",
+            "poster_path": "/yUvYJIUtX9sT7I7l1KAMUdnTAWD.jpg",
+            "season_number": 28
+        },
+        {
+            "air_date": "2018-09-02",
+            "episode_count": 49,
+            "id": 108407,
+            "name": "Zi-O",
+            "overview": "In the fall of 2018, a time machine appears before a hero born in the year 2000. The hero has always dreamed of becoming a king. A mysterious girl appears from the time machine, telling the hero “I come from the year 2068, a world without hope where the king of demons reigns supreme.” The girl has come from the future in a desperate effort to change her own time. The girl then gives the hero an ominous warning “You will become Kamen Rider Zi-O, King of Time, the demon destined to rule the world.” Can this really be the hero’s fate? This is the story of a Kamen Rider who would be king, who will fight to save the past, present, and future, encountering the various Heisei Kamen Riders throughout space-time.",
+            "poster_path": "/xs0hiPlN1ZaJIYygIxlifDMceHJ.jpg",
+            "season_number": 29
+        },
+        {
+            "air_date": "2019-09-01",
+            "episode_count": 39,
+            "id": 130188,
+            "name": "Zero-One",
+            "overview": "After the death of his grandfather Korenosuke, failed comedian Aruto Hiden is chosen to inherit his company and be granted the power of the Hiden Zero-One Driver, just as a cyber-terrorist organization called MetsubouJinrai.net begins their plan to exterminate mankind.",
+            "poster_path": "/xc42ALVvhf3dbqUW0xJPX1MZwEz.jpg",
+            "season_number": 30
+        }
+    ],
+    "status": "Returning Series",
+    "type": "Scripted",
+    "vote_average": 5.3,
+    "vote_count": 40
+}

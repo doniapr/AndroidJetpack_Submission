@@ -1,0 +1,117 @@
+{
+    "backdrop_path": "/oBilGalyrQJTtDuYIljRQGNXXb8.jpg",
+    "created_by": [
+        {
+            "id": 69414,
+            "credit_id": "5b341488c3a368531a019f53",
+            "name": "John Linson",
+            "gender": 2,
+            "profile_path": null
+        },
+        {
+            "id": 1215399,
+            "credit_id": "59a5dfe9c3a36840640129db",
+            "name": "Taylor Sheridan",
+            "gender": 2,
+            "profile_path": "/vdGTrPJG95AhBXr3xId5Fj8cTCu.jpg"
+        }
+    ],
+    "episode_run_time": [
+        42
+    ],
+    "first_air_date": "2018-06-20",
+    "genres": "Drama, Western",
+    "homepage": "http://www.paramountnetwork.com/shows/yellowstone",
+    "id": 73586,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2020-07-05",
+    "last_episode_to_air": {
+        "air_date": "2020-07-05",
+        "episode_number": 3,
+        "id": 2317686,
+        "name": "An Acceptable Surrender",
+        "overview": "Jamie plays cover-up and damage control with Hendon. Governor Perry hears a $6 billion pitch for a development right on the Yellowstone, and later makes some political maneuvers. Jimmy competes in a rodeo competition.",
+        "production_code": "",
+        "season_number": 3,
+        "show_id": 73586,
+        "still_path": "/fS5gYhIma3nv6xuQ4iGGAe1qlBj.jpg",
+        "vote_average": 5.333,
+        "vote_count": 3
+    },
+    "name": "Yellowstone",
+    "next_episode_to_air": {
+        "air_date": "2020-07-12",
+        "episode_number": 4,
+        "id": 2338889,
+        "name": "Going Back To Cali",
+        "overview": "Beth shares a personal secret with Rip. John and the boys deal with some hostile trespassers from out of state. Rainwater reaches out to a powerful woman to help secure the future of Broken Rock.",
+        "production_code": "",
+        "season_number": 3,
+        "show_id": 73586,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "networks": [
+        {
+            "name": "Paramount Network",
+            "id": 2076,
+            "logo_path": "/4knr4ozp2IQrA3SMQlLSYKcM3ML.png",
+            "origin_country": "US"
+        }
+    ],
+    "number_of_episodes": 24,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Yellowstone",
+    "overview": "Follow the violent world of the Dutton family, who controls the largest contiguous ranch in the United States. Led by their patriarch John Dutton, the family defends their property against constant attack by land developers, an Indian reservation, and America’s first National Park.",
+    "popularity": 28.469,
+    "poster_path": "/43nVQqVsrshaOx9GfJq6JstsfCX.jpg",
+    "production_companies": [
+        {
+            "id": 124254,
+            "logo_path": null,
+            "name": "101 Studios",
+            "origin_country": ""
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2018-06-20",
+            "episode_count": 9,
+            "id": 93559,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/vztZhTUNXk73mocDIXDd3nIfzRH.jpg",
+            "season_number": 1
+        },
+        {
+            "air_date": "2019-06-19",
+            "episode_count": 10,
+            "id": 120916,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/3ePlESS6eyUj9W7yPEbzhwWaiFo.jpg",
+            "season_number": 2
+        },
+        {
+            "air_date": "2020-06-21",
+            "episode_count": 5,
+            "id": 148960,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/43nVQqVsrshaOx9GfJq6JstsfCX.jpg",
+            "season_number": 3
+        }
+    ],
+    "status": "Returning Series",
+    "type": "Scripted",
+    "vote_average": 7.8,
+    "vote_count": 108
+}

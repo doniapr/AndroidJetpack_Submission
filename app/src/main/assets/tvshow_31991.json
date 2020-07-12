@@ -1,0 +1,214 @@
+{
+    "backdrop_path": "/oO36eZ1AX3SikQ6FDpQ7df4T5IT.jpg",
+    "created_by": [
+        {
+            "id": 115788,
+            "credit_id": "594bd515925141310c0125fd",
+            "name": "Paul Michael Lévesque",
+            "gender": 2,
+            "profile_path": "/zSrgS4VPx5f12iZC9zxiULartDj.jpg"
+        }
+    ],
+    "episode_run_time": [
+        120
+    ],
+    "first_air_date": "2010-02-23",
+    "genres": "Action & Adventure, Drama",
+    "homepage": "http://www.wwe.com/shows/wwenxt",
+    "id": 31991,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2020-07-08",
+    "last_episode_to_air": {
+        "air_date": "2020-07-08",
+        "episode_number": 30,
+        "id": 2320964,
+        "name": "July 8, 2020",
+        "overview": "",
+        "production_code": "",
+        "season_number": 14,
+        "show_id": 31991,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "WWE NXT",
+    "next_episode_to_air": {
+        "air_date": "2020-07-15",
+        "episode_number": 31,
+        "id": 2320965,
+        "name": "July 15, 2020",
+        "overview": "",
+        "production_code": "",
+        "season_number": 14,
+        "show_id": 31991,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "networks": [
+        {
+            "name": "USA Network",
+            "id": 30,
+            "logo_path": "/g1e0H0Ka97IG5SyInMXdJkHGKiH.png",
+            "origin_country": "US"
+        },
+        {
+            "name": "Syfy",
+            "id": 77,
+            "logo_path": "/iYfrkobwDhTOFJ4AXYPSLIEeaAT.png",
+            "origin_country": "US"
+        },
+        {
+            "name": "WWE Network",
+            "id": 1025,
+            "logo_path": "/iTD3AB16Bp9NK7HEVr2wOw43MPJ.png",
+            "origin_country": "US"
+        }
+    ],
+    "number_of_episodes": 555,
+    "number_of_seasons": 14,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "WWE NXT",
+    "overview": "Wrestlers will portray heroes or villains as they follow a series of events that build tension and culminate in a wrestling match or series of matches.",
+    "popularity": 43.484,
+    "poster_path": "/yh6cpWfIaiNbZDlqTjjzv7OSooV.jpg",
+    "production_companies": [],
+    "seasons": [
+        {
+            "air_date": "2010-02-23",
+            "episode_count": 15,
+            "id": 43466,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/7veLLJpmKqa4hnBJiQaECZPv4Gu.jpg",
+            "season_number": 1
+        },
+        {
+            "air_date": "2010-06-08",
+            "episode_count": 13,
+            "id": 43467,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/hRtxo4lTudSpeiAd5nkgnjnG45N.jpg",
+            "season_number": 2
+        },
+        {
+            "air_date": "2010-09-07",
+            "episode_count": 13,
+            "id": 43468,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/6qexdMImT4gctFEt9hJ6f4uCdYH.jpg",
+            "season_number": 3
+        },
+        {
+            "air_date": "2010-12-07",
+            "episode_count": 13,
+            "id": 43469,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/oOkh0JQ5dbzfEXlyOVuGmpdh9lg.jpg",
+            "season_number": 4
+        },
+        {
+            "air_date": "2011-03-08",
+            "episode_count": 67,
+            "id": 43470,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/uodhuQD4W0qlGn6fDDsx4Jeg7sY.jpg",
+            "season_number": 5
+        },
+        {
+            "air_date": "2012-06-20",
+            "episode_count": 28,
+            "id": 65137,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/nFw8CAcOBkPMPotjh30ie075BZi.jpg",
+            "season_number": 6
+        },
+        {
+            "air_date": "2013-01-02",
+            "episode_count": 52,
+            "id": 65138,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/fk84LEtrQQBDuzYeEKHDrKZNRfJ.jpg",
+            "season_number": 7
+        },
+        {
+            "air_date": "2014-01-01",
+            "episode_count": 52,
+            "id": 65139,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": "/9yL3DPmdfz1UlYas3cOpP8IhbtM.jpg",
+            "season_number": 8
+        },
+        {
+            "air_date": "2015-01-01",
+            "episode_count": 53,
+            "id": 65140,
+            "name": "Season 9",
+            "overview": "",
+            "poster_path": "/5c2D9CrKEogzQyKsBQF8dP6elj7.jpg",
+            "season_number": 9
+        },
+        {
+            "air_date": "2016-01-06",
+            "episode_count": 55,
+            "id": 73827,
+            "name": "Season 10",
+            "overview": "",
+            "poster_path": "/esNj6znzTKovbZ5YMpnn0HIfdAU.jpg",
+            "season_number": 10
+        },
+        {
+            "air_date": "2017-01-04",
+            "episode_count": 52,
+            "id": 83876,
+            "name": "Season 11",
+            "overview": "",
+            "poster_path": "/2oeaQXjNra00am2giNywdLPrDu.jpg",
+            "season_number": 11
+        },
+        {
+            "air_date": "2018-01-03",
+            "episode_count": 52,
+            "id": 96668,
+            "name": "Season 12",
+            "overview": "",
+            "poster_path": "/dfn9ynPkvQZ7JJzEGJuUVOCnwAn.jpg",
+            "season_number": 12
+        },
+        {
+            "air_date": "2019-01-02",
+            "episode_count": 57,
+            "id": 115164,
+            "name": "Season 13",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 13
+        },
+        {
+            "air_date": "2020-01-01",
+            "episode_count": 33,
+            "id": 139484,
+            "name": "Season 14",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 14
+        }
+    ],
+    "status": "Returning Series",
+    "type": "Scripted",
+    "vote_average": 6.2,
+    "vote_count": 45
+}

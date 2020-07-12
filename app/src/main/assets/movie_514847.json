@@ -1,0 +1,64 @@
+{
+    "adult": false,
+    "backdrop_path": "/naXUDz0VGK7aaPlEpsuYW8kNVsr.jpg",
+    "belongs_to_collection": null,
+    "budget": 14000000,
+    "genres": "Action, Thriller, Horror",
+    "homepage": "https://www.thehunt.movie/",
+    "id": 514847,
+    "imdb_id": "tt8244784",
+    "original_language": "en",
+    "original_title": "The Hunt",
+    "overview": "Twelve strangers wake up in a clearing. They don't know where they are—or how they got there. In the shadow of a dark internet conspiracy theory, ruthless elitists gather at a remote location to hunt humans for sport. But their master plan is about to be derailed when one of the hunted turns the tables on her pursuers.",
+    "popularity": 45.419,
+    "poster_path": "/wxPhn4ef1EAo5njxwBkAEVrlJJG.jpg",
+    "production_companies": [
+        {
+            "id": 3172,
+            "logo_path": "/kDedjRZwO8uyFhuHamomOhN6fzG.png",
+            "name": "Blumhouse Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 33,
+            "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
+            "name": "Universal Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 130530,
+            "logo_path": null,
+            "name": "White Rabbit Productions",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2020-03-11",
+    "revenue": 6512500,
+    "runtime": 90,
+    "spoken_languages": [
+        {
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        },
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "iso_639_1": "it",
+            "name": "Italiano"
+        }
+    ],
+    "status": "Released",
+    "tagline": "The Ultimate Human Hunting Experience",
+    "title": "The Hunt",
+    "video": false,
+    "vote_average": 6.7,
+    "vote_count": 1064
+}

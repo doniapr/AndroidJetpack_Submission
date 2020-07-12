@@ -1,7 +1,7 @@
 package com.doniapr.moviecatalogue.utils
 
-import com.doniapr.moviecatalogue.data.Movie
-import com.doniapr.moviecatalogue.data.TvShow
+import com.doniapr.moviecatalogue.data.source.local.entity.Movie
+import com.doniapr.moviecatalogue.data.source.local.entity.TvShow
 import java.util.*
 
 object GenerateData {
@@ -14,6 +14,14 @@ object GenerateData {
         return movies
     }
 
+    fun getDetailMovie(id: String): Movie {
+        val movies = Content.movies.filter {
+            it.id == id
+        }
+
+        return movies[0]
+    }
+
     fun generateTvShowData(): List<TvShow> {
         val tvShows = ArrayList<TvShow>()
 
@@ -21,5 +29,13 @@ object GenerateData {
             tvShows.add(tvShow)
         }
         return tvShows
+    }
+
+    fun getDetailTvShow(id: String): TvShow {
+        val tvshows = Content.tvShows.filter {
+            it.id == id
+        }
+
+        return tvshows[0]
     }
 }

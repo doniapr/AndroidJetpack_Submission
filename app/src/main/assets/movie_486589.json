@@ -1,0 +1,56 @@
+{
+    "adult": false,
+    "backdrop_path": "/bga3i5jcejBekr2FCGJga1fYCh.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": "Animation, Romance, Family",
+    "homepage": "",
+    "id": 486589,
+    "imdb_id": "tt4429160",
+    "original_language": "en",
+    "original_title": "Red Shoes and the Seven Dwarfs",
+    "overview": "Princes who have been turned into Dwarfs seek the red shoes of a lady in order to break the spell, although it will not be easy.",
+    "popularity": 57.277,
+    "poster_path": "/MBiKqTsouYqAACLYNDadsjhhC0.jpg",
+    "production_companies": [
+        {
+            "id": 3657,
+            "logo_path": "/2YXnZa6yPjxdHKzBLgmf57D8QpM.png",
+            "name": "Sidus",
+            "origin_country": "KR"
+        },
+        {
+            "id": 20064,
+            "logo_path": "/6HvsksiEE7DknfZU5HT1mUs563q.png",
+            "name": "Next Entertainment World",
+            "origin_country": "KR"
+        },
+        {
+            "id": 121669,
+            "logo_path": null,
+            "name": "Locus Creative Studios",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "KR",
+            "name": "South Korea"
+        }
+    ],
+    "release_date": "2019-07-25",
+    "revenue": 5362776,
+    "runtime": 92,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Red Shoes and the Seven Dwarfs",
+    "video": false,
+    "vote_average": 7.0,
+    "vote_count": 207
+}

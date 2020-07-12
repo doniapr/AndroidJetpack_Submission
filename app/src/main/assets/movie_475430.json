@@ -1,0 +1,56 @@
+{
+    "adult": false,
+    "backdrop_path": "/o0F8xAt8YuEm5mEZviX5pEFC12y.jpg",
+    "belongs_to_collection": null,
+    "budget": 125000000,
+    "genres": "Adventure, Fantasy, Science Fiction, Family",
+    "homepage": "https://movies.disney.com/artemis-fowl",
+    "id": 475430,
+    "imdb_id": "tt3089630",
+    "original_language": "en",
+    "original_title": "Artemis Fowl",
+    "overview": "Artemis Fowl is a 12-year-old genius and descendant of a long line of criminal masterminds. He soon finds himself in an epic battle against a race of powerful underground fairies who may be behind his father's disappearance.",
+    "popularity": 98.478,
+    "poster_path": "/tI8ocADh22GtQFV28vGHaBZVb0U.jpg",
+    "production_companies": [
+        {
+            "id": 11391,
+            "logo_path": null,
+            "name": "Tribeca Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 2,
+            "logo_path": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+            "name": "Walt Disney Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 38227,
+            "logo_path": null,
+            "name": "TKBC",
+            "origin_country": "GB"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2020-06-12",
+    "revenue": 0,
+    "runtime": 95,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Remember the name",
+    "title": "Artemis Fowl",
+    "video": false,
+    "vote_average": 5.8,
+    "vote_count": 617
+}
