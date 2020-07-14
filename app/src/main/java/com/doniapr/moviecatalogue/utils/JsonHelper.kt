@@ -176,8 +176,8 @@ class JsonHelper(private val context: Context) {
                 val numberOfEpisode = tvShow.getString("number_of_episodes")
                 val numberOfSeason = tvShow.getString("number_of_seasons")
 
-                val episodeRuntime = tvShow.getString("episode_run_time")
-                val runtime = listOf(episodeRuntime)
+                val episodeRuntime = tvShow.getJSONArray("episode_run_time")
+                val runtime: List<String> = listOf(episodeRuntime.get(0).toString())
 
                 tvShowResponse = TvShowResponse(
                     idTvShow,
