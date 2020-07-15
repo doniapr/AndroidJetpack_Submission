@@ -2,23 +2,36 @@ package com.doniapr.moviecatalogue
 
 import androidx.recyclerview.widget.RecyclerView
 import androidx.test.espresso.Espresso.onView
+import androidx.test.espresso.IdlingRegistry
 import androidx.test.espresso.action.ViewActions.click
 import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.contrib.RecyclerViewActions
 import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.rule.ActivityTestRule
 import com.doniapr.moviecatalogue.ui.home.MainActivity
+import com.doniapr.moviecatalogue.utils.EspressoIdlingResource
 import com.doniapr.moviecatalogue.utils.GenerateData
+import org.junit.After
+import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 
 class MainActivityTest {
-    private val movies = GenerateData.generateMovieData()
-    private val tvShow = GenerateData.generateTvShowData()
-
+    private val movies = GenerateData.generateRemoteMovieData()
+    private val tvShow = GenerateData.generateRemoteTvShowData()
 
     @get:Rule
     var activityRule = ActivityTestRule(MainActivity::class.java)
+
+    @Before
+    fun setUp(){
+        IdlingRegistry.getInstance().register(EspressoIdlingResource.espressoTestIdlingResource)
+    }
+
+    @After
+    fun tearDown(){
+        IdlingRegistry.getInstance().register(EspressoIdlingResource.espressoTestIdlingResource)
+    }
 
     @Test
     fun loadMovies(){

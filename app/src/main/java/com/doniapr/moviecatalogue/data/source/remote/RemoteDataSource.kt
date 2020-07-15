@@ -3,6 +3,7 @@ package com.doniapr.moviecatalogue.data.source.remote
 import android.os.Handler
 import com.doniapr.moviecatalogue.data.source.remote.response.MovieResponse
 import com.doniapr.moviecatalogue.data.source.remote.response.TvShowResponse
+import com.doniapr.moviecatalogue.utils.EspressoIdlingResource
 import com.doniapr.moviecatalogue.utils.JsonHelper
 
 class RemoteDataSource private constructor(private val jsonHelper: JsonHelper) {
@@ -22,34 +23,57 @@ class RemoteDataSource private constructor(private val jsonHelper: JsonHelper) {
     }
 
     fun getAllMovie(callback: LoadMoviesCallback) {
+        EspressoIdlingResource.increment()
         handler.postDelayed(
-            { callback.onAllMovieReceived(jsonHelper.loadMovie()) },
+            {
+                callback.onAllMovieReceived(jsonHelper.loadMovie())
+                EspressoIdlingResource.decrement()
+            },
             SERVICE_LATENCY_IN_MILLIS
         )
 
     }
 
-    fun getDetailMovie(id: String, callback: GetDetailMovie){
-        handler.postDelayed({callback.onMovieReceived(jsonHelper.getDetailMovie(id))}, SERVICE_LATENCY_IN_MILLIS)
+    fun getDetailMovie(id: String, callback: GetDetailMovie) {
+        EspressoIdlingResource.increment()
+        handler.postDelayed(
+            {
+                callback.onMovieReceived(jsonHelper.getDetailMovie(id))
+                EspressoIdlingResource.decrement()
+            },
+            SERVICE_LATENCY_IN_MILLIS
+        )
     }
 
     fun getAllTvShow(callback: LoadTvShowsCallback) {
+        EspressoIdlingResource.increment()
         handler.postDelayed(
-            { callback.onAllTvShowReceived(jsonHelper.loadTvShow()) },
+            {
+                callback.onAllTvShowReceived(jsonHelper.loadTvShow())
+
+                EspressoIdlingResource.decrement()
+            },
             SERVICE_LATENCY_IN_MILLIS
         )
 
     }
 
-    fun getDetailTvShow(id: String, callback: GetDetailTvShow){
-        handler.postDelayed({callback.onTvShowReceived(jsonHelper.getDetailTvShow(id))}, SERVICE_LATENCY_IN_MILLIS)
+    fun getDetailTvShow(id: String, callback: GetDetailTvShow) {
+        EspressoIdlingResource.increment()
+        handler.postDelayed(
+            {
+                callback.onTvShowReceived(jsonHelper.getDetailTvShow(id))
+                EspressoIdlingResource.increment()
+            },
+            SERVICE_LATENCY_IN_MILLIS
+        )
     }
 
     interface LoadMoviesCallback {
         fun onAllMovieReceived(movieResponses: List<MovieResponse>)
     }
 
-    interface GetDetailMovie{
+    interface GetDetailMovie {
         fun onMovieReceived(movieResponse: MovieResponse?)
     }
 
@@ -57,7 +81,7 @@ class RemoteDataSource private constructor(private val jsonHelper: JsonHelper) {
         fun onAllTvShowReceived(tvShowResponses: List<TvShowResponse>)
     }
 
-    interface GetDetailTvShow{
+    interface GetDetailTvShow {
         fun onTvShowReceived(tvShowResponse: TvShowResponse?)
     }
 
