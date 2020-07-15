@@ -63,7 +63,7 @@ class RemoteDataSource private constructor(private val jsonHelper: JsonHelper) {
         handler.postDelayed(
             {
                 callback.onTvShowReceived(jsonHelper.getDetailTvShow(id))
-                EspressoIdlingResource.increment()
+                EspressoIdlingResource.decrement()
             },
             SERVICE_LATENCY_IN_MILLIS
         )
