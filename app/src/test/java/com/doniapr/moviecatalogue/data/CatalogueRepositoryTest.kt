@@ -46,7 +46,7 @@ class CatalogueRepositoryTest {
     @Test
     fun getDetailMovie() {
         doAnswer { invocation ->
-            (invocation.arguments[0] as RemoteDataSource.GetDetailMovie).onMovieReceived(movie)
+            (invocation.arguments[1] as RemoteDataSource.GetDetailMovie).onMovieReceived(movie)
             null
         }.`when`(remote).getDetailMovie(eq(movieId!!), any())
 
@@ -76,7 +76,7 @@ class CatalogueRepositoryTest {
     @Test
     fun getDetailTvShow() {
         doAnswer { invocation ->
-            (invocation.arguments[0] as RemoteDataSource.GetDetailTvShow).onTvShowReceived(tvShow)
+            (invocation.arguments[1] as RemoteDataSource.GetDetailTvShow).onTvShowReceived(tvShow)
             null
         }.`when`(remote).getDetailTvShow(eq(tvShowId!!), any())
 
