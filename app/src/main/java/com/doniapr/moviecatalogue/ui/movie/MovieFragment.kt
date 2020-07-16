@@ -1,6 +1,5 @@
 package com.doniapr.moviecatalogue.ui.movie
 
-import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -11,7 +10,6 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
 import com.doniapr.moviecatalogue.R
 import com.doniapr.moviecatalogue.di.ViewModelFactory
-import com.doniapr.moviecatalogue.ui.detail.DetailMovieActivity
 import kotlinx.android.synthetic.main.fragment_movie.*
 
 /**
@@ -38,7 +36,7 @@ class MovieFragment : Fragment() {
 
             val movieAdapter = MovieAdapter()
             progressbar_movie.visibility = View.VISIBLE
-            movieViewModel.getMovie().observe(this, Observer{
+            movieViewModel.getMovie().observe(this, Observer {
                 movieAdapter.setData(it)
                 movieAdapter.notifyDataSetChanged()
                 progressbar_movie.visibility = View.GONE

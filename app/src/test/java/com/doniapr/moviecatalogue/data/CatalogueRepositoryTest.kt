@@ -4,11 +4,10 @@ import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import com.doniapr.moviecatalogue.data.source.remote.RemoteDataSource
 import com.doniapr.moviecatalogue.utils.GenerateData
 import com.doniapr.moviecatalogue.utils.LiveDataTestUtil
-
 import com.nhaarman.mockitokotlin2.any
-import com.nhaarman.mockitokotlin2.verify
-import com.nhaarman.mockitokotlin2.eq
 import com.nhaarman.mockitokotlin2.doAnswer
+import com.nhaarman.mockitokotlin2.eq
+import com.nhaarman.mockitokotlin2.verify
 import junit.framework.TestCase.assertEquals
 import junit.framework.TestCase.assertNotNull
 import org.junit.Rule
@@ -31,9 +30,11 @@ class CatalogueRepositoryTest {
     private val tvShowId = dummyTvShow[0].id
 
     @Test
-    fun getAllMovie(){
-        doAnswer {invocation ->
-            (invocation.arguments[0] as RemoteDataSource.LoadMoviesCallback).onAllMovieReceived(dummyMovie)
+    fun getAllMovie() {
+        doAnswer { invocation ->
+            (invocation.arguments[0] as RemoteDataSource.LoadMoviesCallback).onAllMovieReceived(
+                dummyMovie
+            )
             null
         }.`when`(remote).getAllMovie(any())
         val movieEntity = LiveDataTestUtil.getValue(catalogueRepository.getAllMovie())
@@ -43,8 +44,8 @@ class CatalogueRepositoryTest {
     }
 
     @Test
-    fun getDetailMovie(){
-        doAnswer {invocation ->
+    fun getDetailMovie() {
+        doAnswer { invocation ->
             (invocation.arguments[0] as RemoteDataSource.GetDetailMovie).onMovieReceived(movie)
             null
         }.`when`(remote).getDetailMovie(eq(movieId!!), any())
@@ -59,9 +60,11 @@ class CatalogueRepositoryTest {
     }
 
     @Test
-    fun getAllTvShow(){
-        doAnswer {invocation ->
-            (invocation.arguments[0] as RemoteDataSource.LoadTvShowsCallback).onAllTvShowReceived(dummyTvShow)
+    fun getAllTvShow() {
+        doAnswer { invocation ->
+            (invocation.arguments[0] as RemoteDataSource.LoadTvShowsCallback).onAllTvShowReceived(
+                dummyTvShow
+            )
             null
         }.`when`(remote).getAllTvShow(any())
         val tvShowEntity = LiveDataTestUtil.getValue(catalogueRepository.getAllTvShow())
@@ -71,8 +74,8 @@ class CatalogueRepositoryTest {
     }
 
     @Test
-    fun getDetailTvShow(){
-        doAnswer {invocation ->
+    fun getDetailTvShow() {
+        doAnswer { invocation ->
             (invocation.arguments[0] as RemoteDataSource.GetDetailTvShow).onTvShowReceived(tvShow)
             null
         }.`when`(remote).getDetailTvShow(eq(tvShowId!!), any())

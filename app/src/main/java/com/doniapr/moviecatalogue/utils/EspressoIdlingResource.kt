@@ -6,11 +6,11 @@ object EspressoIdlingResource {
     private const val RESOURCE = "GLOBAL"
     val espressoTestIdlingResource = CountingIdlingResource(RESOURCE)
 
-    fun increment(){
+    fun increment() {
         espressoTestIdlingResource.increment()
     }
 
-    fun decrement(){
+    fun decrement() {
         espressoTestIdlingResource.decrement()
     }
 }

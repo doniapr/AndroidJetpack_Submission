@@ -1,6 +1,5 @@
 package com.doniapr.moviecatalogue.ui.tvshow
 
-import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -11,8 +10,6 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
 import com.doniapr.moviecatalogue.R
 import com.doniapr.moviecatalogue.di.ViewModelFactory
-import com.doniapr.moviecatalogue.ui.detail.DetailMovieActivity
-import kotlinx.android.synthetic.main.fragment_movie.*
 import kotlinx.android.synthetic.main.fragment_tv_show.*
 
 /**

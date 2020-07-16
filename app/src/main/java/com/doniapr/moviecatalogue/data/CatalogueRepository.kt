@@ -8,23 +8,25 @@ import com.doniapr.moviecatalogue.data.source.remote.RemoteDataSource
 import com.doniapr.moviecatalogue.data.source.remote.response.MovieResponse
 import com.doniapr.moviecatalogue.data.source.remote.response.TvShowResponse
 
-class CatalogueRepository private constructor(private val remoteDataSource: RemoteDataSource): CatalogueDataSource{
+class CatalogueRepository private constructor(private val remoteDataSource: RemoteDataSource) :
+    CatalogueDataSource {
 
     companion object {
         @Volatile
         private var instance: CatalogueRepository? = null
 
         fun getInstance(remoteDataSource: RemoteDataSource): CatalogueRepository =
-            instance ?: synchronized(this){
+            instance ?: synchronized(this) {
                 instance ?: CatalogueRepository(remoteDataSource)
             }
     }
+
     override fun getAllMovie(): LiveData<List<Movie>> {
         val movieResult = MutableLiveData<List<Movie>>()
-        remoteDataSource.getAllMovie(object : RemoteDataSource.LoadMoviesCallback{
+        remoteDataSource.getAllMovie(object : RemoteDataSource.LoadMoviesCallback {
             override fun onAllMovieReceived(movieResponses: List<MovieResponse>) {
                 val movieList = ArrayList<Movie>()
-                for (response in movieResponses){
+                for (response in movieResponses) {
                     val movie =
                         Movie(
                             response.id,
@@ -54,24 +56,24 @@ class CatalogueRepository private constructor(private val remoteDataSource: Remo
     override fun getDetailMovie(id: String): LiveData<Movie> {
         val movieResult = MutableLiveData<Movie>()
 
-        remoteDataSource.getDetailMovie(id, object : RemoteDataSource.GetDetailMovie{
-            override fun onMovieReceived(response: MovieResponse?) {
-                if (response != null){
+        remoteDataSource.getDetailMovie(id, object : RemoteDataSource.GetDetailMovie {
+            override fun onMovieReceived(movieResponse: MovieResponse?) {
+                if (movieResponse != null) {
                     val movie =
                         Movie(
-                            response.id,
-                            response.title,
-                            response.overview,
-                            response.originalTitle,
-                            response.genres,
-                            response.releaseDate,
-                            response.runtime,
-                            response.tagline,
-                            response.status,
-                            response.voteAverage,
-                            response.voteCount,
-                            response.posterPath,
-                            response.backdropPath
+                            movieResponse.id,
+                            movieResponse.title,
+                            movieResponse.overview,
+                            movieResponse.originalTitle,
+                            movieResponse.genres,
+                            movieResponse.releaseDate,
+                            movieResponse.runtime,
+                            movieResponse.tagline,
+                            movieResponse.status,
+                            movieResponse.voteAverage,
+                            movieResponse.voteCount,
+                            movieResponse.posterPath,
+                            movieResponse.backdropPath
                         )
 
                     movieResult.postValue(movie)
@@ -84,10 +86,10 @@ class CatalogueRepository private constructor(private val remoteDataSource: Remo
 
     override fun getAllTvShow(): LiveData<List<TvShow>> {
         val tvShowResult = MutableLiveData<List<TvShow>>()
-        remoteDataSource.getAllTvShow(object : RemoteDataSource.LoadTvShowsCallback{
+        remoteDataSource.getAllTvShow(object : RemoteDataSource.LoadTvShowsCallback {
             override fun onAllTvShowReceived(tvShowResponses: List<TvShowResponse>) {
                 val tvShowList = ArrayList<TvShow>()
-                for (response in tvShowResponses){
+                for (response in tvShowResponses) {
                     val tvShow =
                         TvShow(
                             response.id,
@@ -117,26 +119,26 @@ class CatalogueRepository private constructor(private val remoteDataSource: Remo
     override fun getDetailTvShow(id: String): LiveData<TvShow> {
         val tvShowResult = MutableLiveData<TvShow>()
 
-        remoteDataSource.getDetailTvShow(id, object : RemoteDataSource.GetDetailTvShow{
-            override fun onTvShowReceived(response: TvShowResponse?) {
-                if (response != null){
+        remoteDataSource.getDetailTvShow(id, object : RemoteDataSource.GetDetailTvShow {
+            override fun onTvShowReceived(tvShowResponse: TvShowResponse?) {
+                if (tvShowResponse != null) {
                     val tvShow =
                         TvShow(
-                            response.id,
-                            response.title,
-                            response.overview,
-                            response.originalTitle,
-                            response.genres,
-                            response.firstAirDate,
-                            response.episodeRunTime,
-                            response.inProduction,
-                            response.status,
-                            response.voteAverage,
-                            response.voteCount,
-                            response.posterPath,
-                            response.backdropPath,
-                            response.numberOfEpisodes,
-                            response.numberOfSeasons
+                            tvShowResponse.id,
+                            tvShowResponse.title,
+                            tvShowResponse.overview,
+                            tvShowResponse.originalTitle,
+                            tvShowResponse.genres,
+                            tvShowResponse.firstAirDate,
+                            tvShowResponse.episodeRunTime,
+                            tvShowResponse.inProduction,
+                            tvShowResponse.status,
+                            tvShowResponse.voteAverage,
+                            tvShowResponse.voteCount,
+                            tvShowResponse.posterPath,
+                            tvShowResponse.backdropPath,
+                            tvShowResponse.numberOfEpisodes,
+                            tvShowResponse.numberOfSeasons
                         )
 
                     tvShowResult.postValue(tvShow)

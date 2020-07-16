@@ -5,14 +5,13 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
 import com.doniapr.moviecatalogue.data.CatalogueRepository
 import com.doniapr.moviecatalogue.data.source.local.entity.Movie
-import com.doniapr.moviecatalogue.ui.detail.DetailMovieViewModel
 import com.doniapr.moviecatalogue.utils.GenerateData
 import com.nhaarman.mockitokotlin2.verify
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertNotNull
 import org.junit.Before
-import org.junit.Test
-
-import org.junit.Assert.*
 import org.junit.Rule
+import org.junit.Test
 import org.junit.runner.RunWith
 import org.mockito.Mock
 import org.mockito.Mockito

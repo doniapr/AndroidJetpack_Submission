@@ -13,11 +13,11 @@ import com.doniapr.moviecatalogue.data.source.local.entity.Movie
 import com.doniapr.moviecatalogue.ui.detail.DetailMovieActivity
 import kotlinx.android.synthetic.main.item_layout.view.*
 
-class MovieAdapter :RecyclerView.Adapter<MovieAdapter.MovieViewHolder>() {
+class MovieAdapter : RecyclerView.Adapter<MovieAdapter.MovieViewHolder>() {
 
     private var movies: List<Movie> = ArrayList()
 
-    fun setData(movies: List<Movie>){
+    fun setData(movies: List<Movie>) {
         this.movies = movies
         notifyDataSetChanged()
     }

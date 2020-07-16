@@ -10,11 +10,8 @@ import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.doniapr.moviecatalogue.BuildConfig
 import com.doniapr.moviecatalogue.R
 import com.doniapr.moviecatalogue.data.source.local.entity.Movie
-import com.doniapr.moviecatalogue.data.source.local.entity.TvShow
 import com.doniapr.moviecatalogue.di.ViewModelFactory
 import kotlinx.android.synthetic.main.activity_detail_movie.*
-import kotlinx.android.synthetic.main.activity_detail_tv_show.*
-import kotlinx.android.synthetic.main.item_layout.view.*
 
 class DetailMovieActivity : AppCompatActivity() {
 

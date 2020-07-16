@@ -24,40 +24,60 @@ class MainActivityTest {
     var activityRule = ActivityTestRule(MainActivity::class.java)
 
     @Before
-    fun setUp(){
+    fun setUp() {
         IdlingRegistry.getInstance().register(EspressoIdlingResource.espressoTestIdlingResource)
     }
 
     @After
-    fun tearDown(){
+    fun tearDown() {
         IdlingRegistry.getInstance().register(EspressoIdlingResource.espressoTestIdlingResource)
     }
 
     @Test
-    fun loadMovies(){
+    fun loadMovies() {
         onView(withId(R.id.rv_movie)).check(matches(isDisplayed()))
-        onView(withId(R.id.rv_movie)).perform(RecyclerViewActions.scrollToPosition<RecyclerView.ViewHolder>(movies.size-1))
+        onView(withId(R.id.rv_movie)).perform(
+            RecyclerViewActions.scrollToPosition<RecyclerView.ViewHolder>(
+                movies.size - 1
+            )
+        )
     }
 
     @Test
-    fun loadTvShow(){
+    fun loadTvShow() {
         onView(withText(R.string.tab_tv_show_text)).perform(click())
         onView(withId(R.id.rv_tv_show)).check(matches(isDisplayed()))
-        onView(withId(R.id.rv_tv_show)).perform(RecyclerViewActions.scrollToPosition<RecyclerView.ViewHolder>(tvShow.size-1))
+        onView(withId(R.id.rv_tv_show)).perform(
+            RecyclerViewActions.scrollToPosition<RecyclerView.ViewHolder>(
+                tvShow.size - 1
+            )
+        )
     }
 
     @Test
     fun loadDetailMovies() {
         onView(withId(R.id.rv_movie)).check(matches(isDisplayed()))
-        onView(withId(R.id.rv_movie)).perform(RecyclerViewActions.actionOnItemAtPosition<RecyclerView.ViewHolder>(0, click()))
+        onView(withId(R.id.rv_movie)).perform(
+            RecyclerViewActions.actionOnItemAtPosition<RecyclerView.ViewHolder>(
+                0,
+                click()
+            )
+        )
         onView(withId(R.id.txt_content_overview)).check(matches(isDisplayed()))
         onView(withId(R.id.txt_content_overview)).check(matches(withText(movies[0].overview)))
     }
 
     @Test
-    fun loadDetailTvShow(){
+    fun loadDetailTvShow() {
         onView(withText(R.string.tab_tv_show_text)).perform(click())
         onView(withId(R.id.rv_tv_show)).check(matches(isDisplayed()))
-        onView(withId(R.id.rv_tv_show)).perform(RecyclerViewActions.actionOnItemAtPosition<RecyclerView.ViewHolder>(1, click()))
+        onView(withId(R.id.rv_tv_show)).perform(
+            RecyclerViewActions.actionOnItemAtPosition<RecyclerView.ViewHolder>(
+                1,
+                click()
+            )
+        )
+        onView(withId(R.id.txt_content_overview_tv_show)).check(matches(isDisplayed()))
+        onView(withId(R.id.txt_content_overview_tv_show)).check(matches(withText(tvShow[0].overview)))
     }
 }

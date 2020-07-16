@@ -17,7 +17,7 @@ class ViewModelFactory private constructor(private val catalogueRepository: Cata
         private var instance: ViewModelFactory? = null
 
         fun getInstance(context: Context): ViewModelFactory =
-            instance ?: synchronized(this){
+            instance ?: synchronized(this) {
                 instance ?: ViewModelFactory(Injection.provideRepository(context))
             }
     }

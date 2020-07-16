@@ -1,20 +1,17 @@
 package com.doniapr.moviecatalogue.ui.detail
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.doniapr.moviecatalogue.BuildConfig
 import com.doniapr.moviecatalogue.R
-import com.doniapr.moviecatalogue.data.source.local.entity.Movie
 import com.doniapr.moviecatalogue.data.source.local.entity.TvShow
 import com.doniapr.moviecatalogue.di.ViewModelFactory
-import kotlinx.android.synthetic.main.activity_detail_movie.*
 import kotlinx.android.synthetic.main.activity_detail_tv_show.*
-import kotlinx.android.synthetic.main.fragment_movie.*
 
 class DetailTvShowActivity : AppCompatActivity() {
     private lateinit var contentTvShow: TvShow

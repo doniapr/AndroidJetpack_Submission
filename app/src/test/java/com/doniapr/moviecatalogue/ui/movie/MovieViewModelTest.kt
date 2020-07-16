@@ -5,9 +5,9 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
 import com.doniapr.moviecatalogue.data.CatalogueRepository
 import com.doniapr.moviecatalogue.data.source.local.entity.Movie
-import com.doniapr.moviecatalogue.ui.movie.MovieViewModel
 import com.doniapr.moviecatalogue.utils.GenerateData
-import org.junit.Assert.*
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertNotNull
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
@@ -31,13 +31,13 @@ class MovieViewModelTest {
     private lateinit var observer: Observer<List<Movie>>
 
     @Before
-    fun setUp(){
+    fun setUp() {
         viewModel = MovieViewModel(catalogueRepository)
     }
 
     @Test
-    fun getMovies(){
-        val dummyMovies  = GenerateData.generateMovieData()
+    fun getMovies() {
+        val dummyMovies = GenerateData.generateMovieData()
         val movies = MutableLiveData<List<Movie>>()
         movies.value = dummyMovies
 

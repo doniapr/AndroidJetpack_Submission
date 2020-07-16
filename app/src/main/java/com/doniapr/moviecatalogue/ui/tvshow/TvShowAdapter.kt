@@ -9,19 +9,18 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.doniapr.moviecatalogue.BuildConfig
 import com.doniapr.moviecatalogue.R
-import com.doniapr.moviecatalogue.data.source.local.entity.Movie
 import com.doniapr.moviecatalogue.data.source.local.entity.TvShow
 import com.doniapr.moviecatalogue.ui.detail.DetailMovieActivity
 import com.doniapr.moviecatalogue.ui.detail.DetailTvShowActivity
 import kotlinx.android.synthetic.main.item_layout.view.*
 
-class TvShowAdapter: RecyclerView.Adapter<TvShowAdapter.TvShowViewHolder>() {
+class TvShowAdapter : RecyclerView.Adapter<TvShowAdapter.TvShowViewHolder>() {
 
     private var tvShows: List<TvShow> = ArrayList()
 
-    fun setData(tvShows: List<TvShow>){
+    fun setData(tvShows: List<TvShow>) {
         this.tvShows = tvShows
-            notifyDataSetChanged()
+        notifyDataSetChanged()
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TvShowViewHolder {
