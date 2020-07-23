@@ -2,26 +2,73 @@ package com.doniapr.moviecatalogue.data
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
+import com.doniapr.moviecatalogue.data.source.local.LocalDataSource
 import com.doniapr.moviecatalogue.data.source.local.entity.Movie
 import com.doniapr.moviecatalogue.data.source.local.entity.TvShow
+import com.doniapr.moviecatalogue.data.source.remote.ApiResponse
 import com.doniapr.moviecatalogue.data.source.remote.RemoteDataSource
 import com.doniapr.moviecatalogue.data.source.remote.response.MovieResponse
 import com.doniapr.moviecatalogue.data.source.remote.response.TvShowResponse
+import com.doniapr.moviecatalogue.utils.AppExecutors
+import com.doniapr.moviecatalogue.vo.Resource
 
-class CatalogueRepository private constructor(private val remoteDataSource: RemoteDataSource) :
+class CatalogueRepository private constructor(
+    private val remoteDataSource: RemoteDataSource,
+    private val localDataSource: LocalDataSource,
+    private val appExecutors: AppExecutors
+) :
     CatalogueDataSource {
 
     companion object {
         @Volatile
         private var instance: CatalogueRepository? = null
 
-        fun getInstance(remoteDataSource: RemoteDataSource): CatalogueRepository =
+        fun getInstance(remoteDataSource: RemoteDataSource, localDataSource: LocalDataSource, appExecutors: AppExecutors): CatalogueRepository =
             instance ?: synchronized(this) {
-                instance ?: CatalogueRepository(remoteDataSource)
+                instance ?: CatalogueRepository(remoteDataSource, localDataSource, appExecutors)
             }
     }
 
-    override fun getAllMovie(): LiveData<List<Movie>> {
+    override fun getAllMovie(): LiveData<Resource<List<Movie>>> {
+        return object : NetworkBoundResource<List<Movie>, List<MovieResponse>>(appExecutors){
+            override fun loadFromDB(): LiveData<List<Movie>> = localDataSource.getFavoriteMovie()
+
+            override fun shouldFetch(data: List<Movie>?): Boolean =
+                data == null || data.isEmpty()
+
+            override fun createCall(): LiveData<ApiResponse<List<MovieResponse>>> =
+                remoteDataSource.getAllMovie()
+
+            override fun saveCallResult(data: List<MovieResponse>) {
+                val movieList = ArrayList<Movie>()
+                for (response in data) {
+                    val movie =
+                        Movie(
+                            response.id,
+                            response.title,
+                            response.overview,
+                            response.originalTitle,
+                            response.genres,
+                            response.releaseDate,
+                            response.runtime,
+                            response.tagline,
+                            response.status,
+                            response.voteAverage,
+                            response.voteCount,
+                            response.posterPath,
+                            response.backdropPath
+                        )
+
+                    movieList.add(movie)
+                }
+
+                localDataSource.addFavoriteMovie()
+
+            }
+
+        }
+
+
         val movieResult = MutableLiveData<List<Movie>>()
         remoteDataSource.getAllMovie(object : RemoteDataSource.LoadMoviesCallback {
             override fun onAllMovieReceived(movieResponses: List<MovieResponse>) {
@@ -147,6 +194,14 @@ class CatalogueRepository private constructor(private val remoteDataSource: Remo
         })
 
         return tvShowResult
+    }
+
+    override fun setMovieFavorite(movie: Movie) {
+        TODO("Not yet implemented")
+    }
+
+    override fun setTvShowFavorite(tvShow: TvShow) {
+        TODO("Not yet implemented")
     }
 
 }
