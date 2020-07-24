@@ -43,7 +43,7 @@ class DetailMovieViewModelTest {
         val movie = MutableLiveData<Movie>()
         movie.value = dummyMovie
 
-        `when`(catalogueRepository.getDetailMovie(movieId!!)).thenReturn(movie)
+        `when`(catalogueRepository.getDetailMovie(movieId)).thenReturn(movie)
         val movieEntity = viewModel.getDetailMovie(movieId).value
         verify(catalogueRepository).getDetailMovie(movieId)
         assertNotNull(movieEntity)

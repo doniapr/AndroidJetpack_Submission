@@ -1,9 +1,16 @@
 package com.doniapr.moviecatalogue.data
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
+import androidx.lifecycle.MutableLiveData
+import androidx.paging.DataSource
+import com.doniapr.moviecatalogue.data.source.local.LocalDataSource
+import com.doniapr.moviecatalogue.data.source.local.entity.Movie
+import com.doniapr.moviecatalogue.data.source.local.entity.TvShow
 import com.doniapr.moviecatalogue.data.source.remote.RemoteDataSource
+import com.doniapr.moviecatalogue.utils.AppExecutors
 import com.doniapr.moviecatalogue.utils.GenerateData
 import com.doniapr.moviecatalogue.utils.LiveDataTestUtil
+import com.doniapr.moviecatalogue.utils.PagedListUtil
 import com.nhaarman.mockitokotlin2.any
 import com.nhaarman.mockitokotlin2.doAnswer
 import com.nhaarman.mockitokotlin2.eq
@@ -12,6 +19,7 @@ import junit.framework.TestCase.assertEquals
 import junit.framework.TestCase.assertNotNull
 import org.junit.Rule
 import org.junit.Test
+import org.mockito.Mockito.`when`
 import org.mockito.Mockito.mock
 
 class CatalogueRepositoryTest {
@@ -19,7 +27,9 @@ class CatalogueRepositoryTest {
     var instantTaskExecutorRule = InstantTaskExecutorRule()
 
     private val remote = mock(RemoteDataSource::class.java)
-    private val catalogueRepository = FakeCatalogueRepository(remote)
+    private val local = mock(LocalDataSource::class.java)
+    private val appExecutors = mock(AppExecutors::class.java)
+    private val catalogueRepository = FakeCatalogueRepository(remote, local, appExecutors)
 
     private val dummyMovie = GenerateData.generateRemoteMovieData()
     private val movie = dummyMovie[0]
@@ -86,5 +96,28 @@ class CatalogueRepositoryTest {
         assertNotNull(tvShowEntity)
         assertEquals(tvShow.title, tvShowEntity.title)
         assertEquals(tvShow.overview, tvShowEntity.overview)
+    }
+
+    @Test
+    fun getFavoriteMovie(){
+        val dataSourceFactory = mock(DataSource.Factory::class.java) as DataSource.Factory<Int, Movie>
+        `when`(local.getFavoriteMovie()).thenReturn(dataSourceFactory)
+        catalogueRepository.getFavoriteMovie()
+
+        val moviesEntity = PagedListUtil.mockPagedList(GenerateData.generateMovieData())
+        verify(local).getFavoriteMovie()
+        assertNotNull(moviesEntity)
+    }
+
+
+    @Test
+    fun getFavoriteTvShow(){
+        val dataSourceFactory = mock(DataSource.Factory::class.java) as DataSource.Factory<Int, TvShow>
+        `when`(local.getFavoriteTvShow()).thenReturn(dataSourceFactory)
+        catalogueRepository.getFavoriteTvShow()
+
+        val tvShowEntity = PagedListUtil.mockPagedList(GenerateData.generateTvShowData())
+        verify(local).getFavoriteTvShow()
+        assertNotNull(tvShowEntity)
     }
 }

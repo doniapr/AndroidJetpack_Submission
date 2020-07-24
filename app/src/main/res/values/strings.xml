@@ -14,5 +14,6 @@
     <string name="release_date">Tanggal Rilis</string>
     <string name="runtime">Durasi</string>
     <string name="genre">Genre</string>
+    <string name="favorite">Favorite</string>
 
 </resources>

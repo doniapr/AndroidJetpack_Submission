@@ -2,22 +2,34 @@ package com.doniapr.moviecatalogue.data
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
+import androidx.paging.LivePagedListBuilder
+import androidx.paging.PagedList
+import com.doniapr.moviecatalogue.data.source.local.LocalDataSource
 import com.doniapr.moviecatalogue.data.source.local.entity.Movie
 import com.doniapr.moviecatalogue.data.source.local.entity.TvShow
 import com.doniapr.moviecatalogue.data.source.remote.RemoteDataSource
 import com.doniapr.moviecatalogue.data.source.remote.response.MovieResponse
 import com.doniapr.moviecatalogue.data.source.remote.response.TvShowResponse
+import com.doniapr.moviecatalogue.utils.AppExecutors
 
-class CatalogueRepository private constructor(private val remoteDataSource: RemoteDataSource) :
+class CatalogueRepository private constructor(
+    private val remoteDataSource: RemoteDataSource,
+    private val localDataSource: LocalDataSource,
+    private val appExecutors: AppExecutors
+) :
     CatalogueDataSource {
 
     companion object {
         @Volatile
         private var instance: CatalogueRepository? = null
 
-        fun getInstance(remoteDataSource: RemoteDataSource): CatalogueRepository =
+        fun getInstance(
+            remoteDataSource: RemoteDataSource,
+            localDataSource: LocalDataSource,
+            appExecutors: AppExecutors
+        ): CatalogueRepository =
             instance ?: synchronized(this) {
-                instance ?: CatalogueRepository(remoteDataSource)
+                instance ?: CatalogueRepository(remoteDataSource, localDataSource, appExecutors)
             }
     }
 
@@ -29,7 +41,7 @@ class CatalogueRepository private constructor(private val remoteDataSource: Remo
                 for (response in movieResponses) {
                     val movie =
                         Movie(
-                            response.id,
+                            response.id!!,
                             response.title,
                             response.overview,
                             response.originalTitle,
@@ -61,7 +73,7 @@ class CatalogueRepository private constructor(private val remoteDataSource: Remo
                 if (movieResponse != null) {
                     val movie =
                         Movie(
-                            movieResponse.id,
+                            movieResponse.id!!,
                             movieResponse.title,
                             movieResponse.overview,
                             movieResponse.originalTitle,
@@ -92,13 +104,13 @@ class CatalogueRepository private constructor(private val remoteDataSource: Remo
                 for (response in tvShowResponses) {
                     val tvShow =
                         TvShow(
-                            response.id,
+                            response.id!!,
                             response.title,
                             response.overview,
                             response.originalTitle,
                             response.genres,
                             response.firstAirDate,
-                            response.episodeRunTime,
+                            response.episodeRunTime?.get(0),
                             response.inProduction,
                             response.status,
                             response.voteAverage,
@@ -124,13 +136,13 @@ class CatalogueRepository private constructor(private val remoteDataSource: Remo
                 if (tvShowResponse != null) {
                     val tvShow =
                         TvShow(
-                            tvShowResponse.id,
+                            tvShowResponse.id!!,
                             tvShowResponse.title,
                             tvShowResponse.overview,
                             tvShowResponse.originalTitle,
                             tvShowResponse.genres,
                             tvShowResponse.firstAirDate,
-                            tvShowResponse.episodeRunTime,
+                            tvShowResponse.episodeRunTime?.get(0),
                             tvShowResponse.inProduction,
                             tvShowResponse.status,
                             tvShowResponse.voteAverage,
@@ -147,6 +159,40 @@ class CatalogueRepository private constructor(private val remoteDataSource: Remo
         })
 
         return tvShowResult
+    }
+
+    override fun getFavoriteMovie(): LiveData<PagedList<Movie>> {
+        val config = PagedList.Config.Builder()
+            .setEnablePlaceholders(false).setInitialLoadSizeHint(4).setPageSize(4).build()
+        return LivePagedListBuilder(localDataSource.getFavoriteMovie(), config).build()
+    }
+
+    override fun getFavoriteTvShow(): LiveData<PagedList<TvShow>> {
+        val config = PagedList.Config.Builder()
+            .setEnablePlaceholders(false).setInitialLoadSizeHint(4).setPageSize(4).build()
+        return LivePagedListBuilder(localDataSource.getFavoriteTvShow(), config).build()
+    }
+
+    override fun getDetailFavoriteMovie(id: String): LiveData<Movie> =
+        localDataSource.getDetailFavoriteMovie(id)
+
+    override fun getDetailFavoriteTvShow(id: String): LiveData<TvShow> =
+        localDataSource.getDetailFavoriteTvShow(id)
+
+    override fun addFavoriteMovie(movie: Movie) {
+        appExecutors.diskIO().execute { localDataSource.addFavoriteMovie(movie) }
+    }
+
+    override fun addFavoriteTvShow(tvShow: TvShow) {
+        appExecutors.diskIO().execute { localDataSource.addFavoriteTvShow(tvShow) }
+    }
+
+    override fun unFavoriteMovie(movie: Movie) {
+        appExecutors.diskIO().execute { localDataSource.unFavoriteMovie(movie) }
+    }
+
+    override fun unFavoriteTvShow(tvShow: TvShow) {
+        appExecutors.diskIO().execute { localDataSource.unFavoriteTvShow(tvShow) }
     }
 
 }

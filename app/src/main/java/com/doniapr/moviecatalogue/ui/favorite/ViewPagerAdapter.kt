@@ -1,4 +1,4 @@
-package com.doniapr.moviecatalogue.ui.home
+package com.doniapr.moviecatalogue.ui.favorite
 
 import android.content.Context
 import androidx.annotation.StringRes
@@ -20,8 +20,8 @@ class ViewPagerAdapter(private val context: Context, fragmentManager: FragmentMa
     override fun getItem(position: Int): Fragment {
         var fragment: Fragment? = null
         when (position) {
-            0 -> fragment = MovieFragment()
-            1 -> fragment = TvShowFragment()
+            0 -> fragment = FavoriteMovieFragment()
+            1 -> fragment = FavoriteTvShowFragment()
         }
         return fragment as Fragment
     }

@@ -6,6 +6,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.doniapr.moviecatalogue.data.CatalogueRepository
 import com.doniapr.moviecatalogue.ui.detail.DetailMovieViewModel
 import com.doniapr.moviecatalogue.ui.detail.DetailTvShowViewModel
+import com.doniapr.moviecatalogue.ui.favorite.FavoriteViewModel
 import com.doniapr.moviecatalogue.ui.movie.MovieViewModel
 import com.doniapr.moviecatalogue.ui.tvshow.TvShowViewModel
 
@@ -35,6 +36,9 @@ class ViewModelFactory private constructor(private val catalogueRepository: Cata
             }
             modelClass.isAssignableFrom(DetailTvShowViewModel::class.java) -> {
                 return DetailTvShowViewModel(catalogueRepository) as T
+            }
+            modelClass.isAssignableFrom(FavoriteViewModel::class.java) -> {
+                return FavoriteViewModel(catalogueRepository) as T
             }
             else -> throw Throwable("Unknown ViewModel class: " + modelClass.name)
         }
