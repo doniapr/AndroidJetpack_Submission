@@ -45,7 +45,7 @@ class MainActivityTest {
 
     @Test
     fun loadTvShow() {
-        onView(withText(R.string.tab_tv_show_text)).perform(click())
+        onView(withId(R.id.navigation_tv_show)).perform(click())
         onView(withId(R.id.rv_tv_show)).check(matches(isDisplayed()))
         onView(withId(R.id.rv_tv_show)).perform(
             RecyclerViewActions.scrollToPosition<RecyclerView.ViewHolder>(
@@ -68,8 +68,22 @@ class MainActivityTest {
     }
 
     @Test
+    fun doAddFavoriteMovie() {
+        onView(withId(R.id.rv_movie)).check(matches(isDisplayed()))
+        onView(withId(R.id.rv_movie)).perform(
+            RecyclerViewActions.actionOnItemAtPosition<RecyclerView.ViewHolder>(
+                0,
+                click()
+            )
+        )
+        onView(withId(R.id.txt_content_overview)).check(matches(isDisplayed()))
+        onView(withId(R.id.txt_content_overview)).check(matches(withText(movies[0].overview)))
+        onView(withId(R.id.action_favorite)).perform(click())
+    }
+
+    @Test
     fun loadDetailTvShow() {
-        onView(withText(R.string.tab_tv_show_text)).perform(click())
+        onView(withId(R.id.navigation_tv_show)).perform(click())
         onView(withId(R.id.rv_tv_show)).check(matches(isDisplayed()))
         onView(withId(R.id.rv_tv_show)).perform(
             RecyclerViewActions.actionOnItemAtPosition<RecyclerView.ViewHolder>(
@@ -78,6 +92,19 @@ class MainActivityTest {
             )
         )
         onView(withId(R.id.txt_content_overview_tv_show)).check(matches(isDisplayed()))
-        onView(withId(R.id.txt_content_overview_tv_show)).check(matches(withText(tvShow[0].overview)))
+    }
+
+    @Test
+    fun doAddFavoriteTvShow() {
+        onView(withId(R.id.navigation_tv_show)).perform(click())
+        onView(withId(R.id.rv_tv_show)).check(matches(isDisplayed()))
+        onView(withId(R.id.rv_tv_show)).perform(
+            RecyclerViewActions.actionOnItemAtPosition<RecyclerView.ViewHolder>(
+                1,
+                click()
+            )
+        )
+        onView(withId(R.id.txt_content_overview_tv_show)).check(matches(isDisplayed()))
+        onView(withId(R.id.action_favorite)).perform(click())
     }
 }
