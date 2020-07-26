@@ -10,8 +10,6 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
 import com.doniapr.moviecatalogue.R
 import com.doniapr.moviecatalogue.di.ViewModelFactory
-import com.doniapr.moviecatalogue.ui.tvshow.TvShowAdapter
-import kotlinx.android.synthetic.main.fragment_favorite_movie.*
 import kotlinx.android.synthetic.main.fragment_favorite_tv_show.*
 
 class FavoriteTvShowFragment : Fragment() {
@@ -40,6 +38,9 @@ class FavoriteTvShowFragment : Fragment() {
             favoriteAdapter.submitList(it)
             favoriteAdapter.notifyDataSetChanged()
             progressbar_favorite_tv_show.visibility = View.GONE
+            if (it == null || it.size == 0) {
+                txt_no_favorite_tv_show.visibility = View.VISIBLE
+            }
         })
         with(rv_favorite_tv_show) {
             layoutManager = GridLayoutManager(context, 2)

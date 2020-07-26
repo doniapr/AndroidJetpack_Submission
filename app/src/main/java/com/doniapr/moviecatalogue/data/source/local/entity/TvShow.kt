@@ -56,4 +56,4 @@ data class TvShow(
 
     @ColumnInfo(name = "numberOfSeasons")
     var numberOfSeasons: String? = null
-): Parcelable
+) : Parcelable

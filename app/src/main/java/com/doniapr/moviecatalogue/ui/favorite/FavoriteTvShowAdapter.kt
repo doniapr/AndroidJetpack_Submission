@@ -11,20 +11,22 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.doniapr.moviecatalogue.BuildConfig
 import com.doniapr.moviecatalogue.R
-import com.doniapr.moviecatalogue.data.source.local.entity.Movie
 import com.doniapr.moviecatalogue.data.source.local.entity.TvShow
 import com.doniapr.moviecatalogue.ui.detail.DetailMovieActivity
 import com.doniapr.moviecatalogue.ui.detail.DetailTvShowActivity
 import kotlinx.android.synthetic.main.item_layout.view.*
 
-class FavoriteTvShowAdapter internal constructor(): PagedListAdapter<TvShow, FavoriteTvShowAdapter.TvShowViewHolder>(
-    DIFF_CALLBACK) {
+class FavoriteTvShowAdapter internal constructor() :
+    PagedListAdapter<TvShow, FavoriteTvShowAdapter.TvShowViewHolder>(
+        DIFF_CALLBACK
+    ) {
 
     companion object {
         private val DIFF_CALLBACK = object : DiffUtil.ItemCallback<TvShow>() {
             override fun areItemsTheSame(oldItem: TvShow, newItem: TvShow): Boolean {
                 return oldItem.id == newItem.id
             }
+
             override fun areContentsTheSame(oldItem: TvShow, newItem: TvShow): Boolean {
                 return oldItem == newItem
             }

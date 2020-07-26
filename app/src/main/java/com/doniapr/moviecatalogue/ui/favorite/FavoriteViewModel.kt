@@ -7,7 +7,7 @@ import com.doniapr.moviecatalogue.data.CatalogueRepository
 import com.doniapr.moviecatalogue.data.source.local.entity.Movie
 import com.doniapr.moviecatalogue.data.source.local.entity.TvShow
 
-class FavoriteViewModel(private val catalogueRepository: CatalogueRepository): ViewModel() {
+class FavoriteViewModel(private val catalogueRepository: CatalogueRepository) : ViewModel() {
     fun getMovieDataList(): LiveData<PagedList<Movie>> = catalogueRepository.getFavoriteMovie()
 
     fun getTvShowDataList(): LiveData<PagedList<TvShow>> = catalogueRepository.getFavoriteTvShow()

@@ -10,7 +10,6 @@ import kotlinx.android.synthetic.main.fragment_favorite.*
 
 /**
  * A simple [Fragment] subclass.
- * Use the [FavoriteFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
 class FavoriteFragment : Fragment() {

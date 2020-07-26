@@ -15,14 +15,17 @@ import com.doniapr.moviecatalogue.data.source.local.entity.Movie
 import com.doniapr.moviecatalogue.ui.detail.DetailMovieActivity
 import kotlinx.android.synthetic.main.item_layout.view.*
 
-class FavoriteMovieAdapter internal constructor(): PagedListAdapter<Movie, FavoriteMovieAdapter.MovieViewHolder>(
-    DIFF_CALLBACK) {
+class FavoriteMovieAdapter internal constructor() :
+    PagedListAdapter<Movie, FavoriteMovieAdapter.MovieViewHolder>(
+        DIFF_CALLBACK
+    ) {
 
     companion object {
         private val DIFF_CALLBACK = object : DiffUtil.ItemCallback<Movie>() {
             override fun areItemsTheSame(oldItem: Movie, newItem: Movie): Boolean {
                 return oldItem.id == newItem.id
             }
+
             override fun areContentsTheSame(oldItem: Movie, newItem: Movie): Boolean {
                 return oldItem == newItem
             }

@@ -26,7 +26,6 @@ class DetailTvShowActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail_tv_show)
 
-
         setSupportActionBar(detail_toolbar_tv_show)
         if (supportActionBar != null) {
             supportActionBar?.setDisplayHomeAsUpEnabled(true)
@@ -83,7 +82,6 @@ class DetailTvShowActivity : AppCompatActivity() {
             supportActionBar?.title = title
         }
     }
-
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         val inflater = menuInflater

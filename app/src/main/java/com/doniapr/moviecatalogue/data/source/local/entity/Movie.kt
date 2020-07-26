@@ -51,4 +51,4 @@ data class Movie(
     @ColumnInfo(name = "backdropPath")
     var backdropPath: String? = null
 
-): Parcelable
+) : Parcelable

@@ -1,7 +1,6 @@
 package com.doniapr.moviecatalogue.data
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
-import androidx.lifecycle.MutableLiveData
 import androidx.paging.DataSource
 import com.doniapr.moviecatalogue.data.source.local.LocalDataSource
 import com.doniapr.moviecatalogue.data.source.local.entity.Movie
@@ -99,8 +98,9 @@ class CatalogueRepositoryTest {
     }
 
     @Test
-    fun getFavoriteMovie(){
-        val dataSourceFactory = mock(DataSource.Factory::class.java) as DataSource.Factory<Int, Movie>
+    fun getFavoriteMovie() {
+        val dataSourceFactory =
+            mock(DataSource.Factory::class.java) as DataSource.Factory<Int, Movie>
         `when`(local.getFavoriteMovie()).thenReturn(dataSourceFactory)
         catalogueRepository.getFavoriteMovie()
 
@@ -111,8 +111,9 @@ class CatalogueRepositoryTest {
 
 
     @Test
-    fun getFavoriteTvShow(){
-        val dataSourceFactory = mock(DataSource.Factory::class.java) as DataSource.Factory<Int, TvShow>
+    fun getFavoriteTvShow() {
+        val dataSourceFactory =
+            mock(DataSource.Factory::class.java) as DataSource.Factory<Int, TvShow>
         `when`(local.getFavoriteTvShow()).thenReturn(dataSourceFactory)
         catalogueRepository.getFavoriteTvShow()
 

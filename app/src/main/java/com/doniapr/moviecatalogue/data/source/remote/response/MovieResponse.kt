@@ -1,6 +1,6 @@
 package com.doniapr.moviecatalogue.data.source.remote.response
 
-data class MovieResponse (
+data class MovieResponse(
     var id: String? = null,
     var title: String? = null,
     var overview: String? = null,

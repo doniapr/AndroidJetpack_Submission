@@ -6,7 +6,7 @@ import com.doniapr.moviecatalogue.data.source.local.entity.Movie
 import com.doniapr.moviecatalogue.data.source.local.entity.TvShow
 import com.doniapr.moviecatalogue.data.source.local.room.FavoriteDAO
 
-class LocalDataSource private constructor(private val favoriteDAO: FavoriteDAO){
+class LocalDataSource private constructor(private val favoriteDAO: FavoriteDAO) {
     companion object {
         private var INSTANCE: LocalDataSource? = null
 
@@ -20,7 +20,8 @@ class LocalDataSource private constructor(private val favoriteDAO: FavoriteDAO){
 
     fun getFavoriteTvShow(): DataSource.Factory<Int, TvShow> = favoriteDAO.getFavoriteTvShow()
 
-    fun getDetailFavoriteTvShow(id: String): LiveData<TvShow> = favoriteDAO.getDetailFavoriteTvShow(id)
+    fun getDetailFavoriteTvShow(id: String): LiveData<TvShow> =
+        favoriteDAO.getDetailFavoriteTvShow(id)
 
     fun addFavoriteMovie(movie: Movie) {
         favoriteDAO.favoriteMovie(movie)

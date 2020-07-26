@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
         main_toolbar.title = resources.getString(R.string.app_name)
         nav_view.setOnNavigationItemSelectedListener(navigationListener)
         if (savedInstanceState == null) {
-            nav_view.selectedItemId = R.id.navigation_movie;
+            nav_view.selectedItemId = R.id.navigation_movie
         }
     }
 

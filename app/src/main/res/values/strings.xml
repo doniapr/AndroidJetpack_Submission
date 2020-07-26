@@ -15,5 +15,9 @@
     <string name="runtime">Durasi</string>
     <string name="genre">Genre</string>
     <string name="favorite">Favorite</string>
+    <string name="no_favorite_movie">Anda belum menambahkan Movie Favorite</string>
+    <string name="no_favorite_tv_show">Anda belum menambahkan Tv Show Favorite</string>
+    <string name="banner_movie">Banner Movie</string>
+    <string name="banner_tv_show">Banner Tv Show</string>
 
 </resources>

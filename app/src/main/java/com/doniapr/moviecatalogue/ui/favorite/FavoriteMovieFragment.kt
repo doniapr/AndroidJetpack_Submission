@@ -10,7 +10,6 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
 import com.doniapr.moviecatalogue.R
 import com.doniapr.moviecatalogue.di.ViewModelFactory
-import com.doniapr.moviecatalogue.ui.movie.MovieAdapter
 import kotlinx.android.synthetic.main.fragment_favorite_movie.*
 
 class FavoriteMovieFragment : Fragment() {
@@ -39,6 +38,9 @@ class FavoriteMovieFragment : Fragment() {
             favoriteAdapter.submitList(it)
             favoriteAdapter.notifyDataSetChanged()
             progressbar_favorite_movie.visibility = View.GONE
+            if (it == null || it.size == 0) {
+                txt_no_favorite_movie.visibility = View.VISIBLE
+            }
         })
 
         with(rv_favorite_movie) {

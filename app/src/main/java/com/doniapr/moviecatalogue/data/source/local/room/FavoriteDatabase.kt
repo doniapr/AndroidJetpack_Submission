@@ -8,7 +8,7 @@ import com.doniapr.moviecatalogue.data.source.local.entity.Movie
 import com.doniapr.moviecatalogue.data.source.local.entity.TvShow
 
 @Database(entities = [Movie::class, TvShow::class], version = 1, exportSchema = false)
-abstract class FavoriteDatabase: RoomDatabase() {
+abstract class FavoriteDatabase : RoomDatabase() {
     abstract fun favoriteDao(): FavoriteDAO
 
     companion object {
