@@ -1,0 +1,99 @@
+{
+    "backdrop_path": "/jGwCKq2EbQbsgNTBM2NoEzFHRdh.jpg",
+    "created_by": [
+        {
+            "id": 1214405,
+            "credit_id": "5e98a4020582240015aed8eb",
+            "name": "Rolin Jones",
+            "gender": 2,
+            "profile_path": null
+        },
+        {
+            "id": 1236251,
+            "credit_id": "5e98a40ed144430019516723",
+            "name": "Ron Fitzgerald",
+            "gender": 2,
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        60
+    ],
+    "first_air_date": "2020-06-21",
+    "genres": "Drama, Mystery, Crime",
+    "homepage": "https://www.hbo.com/perry-mason",
+    "id": 85853,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2020-07-05",
+    "last_episode_to_air": {
+        "air_date": "2020-07-05",
+        "episode_number": 3,
+        "id": 2280382,
+        "name": "Chapter 3",
+        "overview": "In order to gain an advantage over E.B. and team, wily district attorney Maynard Barnes goes public with a shocking new development. Mason and Strickland get unauthorized access to physical evidence with help from Virgil, Mason's connect at the city morgue. Later, Mason attempts to extract information from a withholding Drake, who's weary of Holcomb and Ennis' watchful eyes.",
+        "production_code": "",
+        "season_number": 1,
+        "show_id": 85853,
+        "still_path": "/qUfLd4uE8lWenHDLhV0hYaOY4Oo.jpg",
+        "vote_average": 7.0,
+        "vote_count": 1
+    },
+    "name": "Perry Mason",
+    "next_episode_to_air": {
+        "air_date": "2020-07-12",
+        "episode_number": 4,
+        "id": 2289419,
+        "name": "Chapter 4",
+        "overview": "Mason and Strickland lean on Virgil, again, for extra-legal assistance. Following Sister Alice's recovery from a frightening episode, Birdy urges her daughter to renounce her claims about baby Charlie. E.B. faces the reality of his financial situation and takes his frustrations out on Della.",
+        "production_code": "",
+        "season_number": 1,
+        "show_id": 85853,
+        "still_path": "/sRs0VZYHJ2oP2xLVn0dEzUs5d1p.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "networks": [
+        {
+            "name": "HBO",
+            "id": 49,
+            "logo_path": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
+            "origin_country": "US"
+        }
+    ],
+    "number_of_episodes": 8,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Perry Mason",
+    "overview": "Set in 1932 Los Angeles, the series focuses on the origin story of famed defense lawyer Perry Mason. Living check-to-check as a low-rent private investigator, Mason is haunted by his wartime experiences in France and suffering the effects of a broken marriage. L.A. is booming while the rest of the country recovers from the Great Depression — but a kidnapping gone very wrong leads to Mason exposing a fractured city as he uncovers the truth of the crime.",
+    "popularity": 25.834,
+    "poster_path": "/gPBf35AqvXHvKEpDHaQ4D9xXxeX.jpg",
+    "production_companies": [
+        {
+            "id": 27467,
+            "logo_path": "/xYus2VP8xXlaZ4KSBDVGltoEnuP.png",
+            "name": "Team Downey",
+            "origin_country": "US"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2020-06-21",
+            "episode_count": 8,
+            "id": 116697,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/ajGOPBFxknwkVLiXD9f8nhsiyKn.jpg",
+            "season_number": 1
+        }
+    ],
+    "status": "Returning Series",
+    "type": "Miniseries",
+    "vote_average": 7.3,
+    "vote_count": 52
+}

@@ -36,9 +36,16 @@ ext {
     espressoVersion = '3.2.0'
     archLifecycleVersion = '2.2.0'
     androidXTestVersion = '1.2.0'
+    mockitoCoreVersion = '3.3.1'
+    mockitoVersion = '3.0.0'
+    mockitoKotlinVersion = '2.1.0'
+    idleResourceVersion = '3.2.0'
 
     materialVersion = '1.1.0'
     legacySupportVersion='1.0.0'
     recyclerViewVersion = '1.1.0'
     glideVersion = '4.11.0'
+    roomRuntimeVersion = '2.2.5'
+    roomCompilerVersion = '2.2.3'
+    pagingVersion = '2.1.2'
 }

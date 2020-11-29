@@ -1,0 +1,96 @@
+{
+    "backdrop_path": "/AagcGcTqbYHa6ACZm765gVkwsjz.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        24
+    ],
+    "first_air_date": "2020-07-11",
+    "genres": "Comedy, Animation",
+    "homepage": "https://kanokari-official.com",
+    "id": 96316,
+    "in_production": true,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2020-07-11",
+    "last_episode_to_air": {
+        "air_date": "2020-07-11",
+        "episode_number": 1,
+        "id": 2010427,
+        "name": "Rent-a-Girlfriend",
+        "overview": "",
+        "production_code": "",
+        "season_number": 1,
+        "show_id": 96316,
+        "still_path": "/bfZj2hAszAnYPv43IlPcK2EgEWf.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Rent-a-Girlfriend",
+    "next_episode_to_air": {
+        "air_date": "2020-07-18",
+        "episode_number": 2,
+        "id": 2307875,
+        "name": "Ex-Girlfriend and Girlfriend",
+        "overview": "",
+        "production_code": "",
+        "season_number": 1,
+        "show_id": 96316,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "networks": [
+        {
+            "name": "MBS",
+            "id": 94,
+            "logo_path": "/7RNXnyiMbjgqtPAjja13wchcrGI.png",
+            "origin_country": "JP"
+        },
+        {
+            "name": "TBS",
+            "id": 160,
+            "logo_path": "/frMsfc7igYUd90lQXpxuasiN5x4.png",
+            "origin_country": "JP"
+        },
+        {
+            "name": "BS-TBS",
+            "id": 881,
+            "logo_path": "/zcWERoR0KacvffK7PBeAdQfcfmI.png",
+            "origin_country": "JP"
+        }
+    ],
+    "number_of_episodes": 12,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "彼女、お借りします",
+    "overview": "In today's Japan, \"rental\" services can deliver an afternoon with a \"friend,\" a \"parent,\" even a fake girlfriend! Kinoshita Kazuya is a 20-year-old failure of a college student. He managed to kiss his girlfriend once, but was dumped after a month.  Completely spiteful, Kazuya gets just desperate enough to give it a try. But he quickly discovers how complicated it can be to \"rent\" an emotional connection... and his new \"girlfriend\", Mizuhara Chizuru, who's trying to keep her side hustle secret, will panic when she finds out her real life and Kazuya's are intertwined in surprising ways! A reckless rom-com filled with love and excitement is about to begin!",
+    "popularity": 45.765,
+    "poster_path": "/4rqyyM0R3a0EeSlEvdpxDKbjiKB.jpg",
+    "production_companies": [
+        {
+            "id": 7164,
+            "logo_path": "/vHsaqTkQ2ZTbdqrCA272YahoVlg.png",
+            "name": "TMS Entertainment",
+            "origin_country": "JP"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2020-07-11",
+            "episode_count": 12,
+            "id": 137788,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/tqOd55KFyXFsWAODhpXbNVCY9rx.jpg",
+            "season_number": 1
+        }
+    ],
+    "status": "Returning Series",
+    "type": "Scripted",
+    "vote_average": 5.7,
+    "vote_count": 3
+}

@@ -1,0 +1,110 @@
+{
+    "backdrop_path": "/ai8bVS8Suvu4ErBhmgBvtESirBY.jpg",
+    "created_by": [
+        {
+            "id": 1624752,
+            "credit_id": "5e76387cb1f68d0019e431db",
+            "name": "Tappei Nagatsuki",
+            "gender": 0,
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        25
+    ],
+    "first_air_date": "2016-04-04",
+    "genres": "Animation, Comedy, Drama, Sci-Fi & Fantasy, Action & Adventure",
+    "homepage": "http://re-zero-anime.jp/",
+    "id": 65942,
+    "in_production": true,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2020-07-08",
+    "last_episode_to_air": {
+        "air_date": "2020-07-08",
+        "episode_number": 1,
+        "id": 2194357,
+        "name": "Each One’s Promise",
+        "overview": "",
+        "production_code": "",
+        "season_number": 2,
+        "show_id": 65942,
+        "still_path": "/pbCMCG0TyU4Ua4F8xxzGakhHftj.jpg",
+        "vote_average": 10.0,
+        "vote_count": 1
+    },
+    "name": "Re:ZERO -Starting Life in Another World-",
+    "next_episode_to_air": {
+        "air_date": "2020-07-15",
+        "episode_number": 2,
+        "id": 2344007,
+        "name": "Episode 2",
+        "overview": "",
+        "production_code": "",
+        "season_number": 2,
+        "show_id": 65942,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "networks": [
+        {
+            "name": "TV Tokyo",
+            "id": 98,
+            "logo_path": "/kGRavMqgyx4p2X4C96bjRCj50oI.png",
+            "origin_country": "JP"
+        }
+    ],
+    "number_of_episodes": 27,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "Re：ゼロから始める異世界生活",
+    "overview": "Natsuki Subaru, an ordinary high school  student, is on his way home from the convenience store when he finds  himself transported to another world. As he's lost and confused in a new  world where he doesn't even know left from right, the only person to  reach out to him was a beautiful girl with silver hair. Determined to  repay her somehow for saving him from his own despair, Subaru agrees to  help the girl find something she's looking for.",
+    "popularity": 39.593,
+    "poster_path": "/5DZa4aDH5MZGcZDf8ouTxm2kH2Y.jpg",
+    "production_companies": [
+        {
+            "id": 12569,
+            "logo_path": "/pROt6mT15AC5aTadf7NRBRiTVo3.png",
+            "name": "White Fox",
+            "origin_country": "JP"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2016-04-05",
+            "episode_count": 25,
+            "id": 76465,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/auyDJIb8j79qHYJU0C26R2YOWP8.jpg",
+            "season_number": 0
+        },
+        {
+            "air_date": "2016-04-04",
+            "episode_count": 25,
+            "id": 75470,
+            "name": "Season 1",
+            "overview": "Natsuki Subaru, an ordinary high school  student, is on his way home from the convenience store when he finds  himself transported to another world. As he's lost and confused in a new  world where he doesn't even know left from right, the only person to  reach out to him was a beautiful girl with silver hair. Determined to  repay her somehow for saving him from his own despair, Subaru agrees to  help the girl find something she's looking for.",
+            "poster_path": "/tsuzDJ3Cf2j5vmj8qPWxCs7zvyV.jpg",
+            "season_number": 1
+        },
+        {
+            "air_date": "2020-07-08",
+            "episode_count": 2,
+            "id": 135315,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/uJozeuLtvHZRBaePpZBBIAQGmSV.jpg",
+            "season_number": 2
+        }
+    ],
+    "status": "Returning Series",
+    "type": "Scripted",
+    "vote_average": 7.5,
+    "vote_count": 108
+}

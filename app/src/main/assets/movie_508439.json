@@ -1,0 +1,50 @@
+{
+    "adult": false,
+    "backdrop_path": "/xFxk4vnirOtUxpOEWgA1MCRfy6J.jpg",
+    "belongs_to_collection": null,
+    "budget": 200000000,
+    "genres": "Animation, Family, Adventure, Comedy, Fantasy",
+    "homepage": "",
+    "id": 508439,
+    "imdb_id": "tt7146812",
+    "original_language": "en",
+    "original_title": "Onward",
+    "overview": "In a suburban fantasy world, two teenage elf brothers embark on an extraordinary quest to discover if there is still a little magic left out there.",
+    "popularity": 70.124,
+    "poster_path": "/f4aul3FyD3jv3v4bul1IrkWZvzq.jpg",
+    "production_companies": [
+        {
+            "id": 2,
+            "logo_path": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+            "name": "Walt Disney Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 3,
+            "logo_path": "/1TjvGVDMYsj6JBxOAkUHpPEwLf7.png",
+            "name": "Pixar",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2020-02-29",
+    "revenue": 103181419,
+    "runtime": 102,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Their quest begineth.",
+    "title": "Onward",
+    "video": false,
+    "vote_average": 7.9,
+    "vote_count": 2495
+}

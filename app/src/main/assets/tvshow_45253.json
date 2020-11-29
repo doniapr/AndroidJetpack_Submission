@@ -1,0 +1,494 @@
+{
+    "backdrop_path": "/dHlKH9vTumj7tPBeYVWGzI7UJ9I.jpg",
+    "created_by": [
+        {
+            "id": 553254,
+            "credit_id": "586f31c7c3a36856f00001e6",
+            "name": "Shōtarō Ishinomori",
+            "gender": 2,
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        30
+    ],
+    "first_air_date": "1975-04-05",
+    "genres": "Action & Adventure, Sci-Fi & Fantasy",
+    "homepage": "http://www.super-sentai.net/",
+    "id": 45253,
+    "in_production": true,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2020-07-05",
+    "last_episode_to_air": {
+        "air_date": "2020-07-05",
+        "episode_number": 13,
+        "id": 2328229,
+        "name": "The Great Underground Decisive Battle",
+        "overview": "",
+        "production_code": "",
+        "season_number": 44,
+        "show_id": 45253,
+        "still_path": "/uQgvGgvHpETUuXnV2jV9nF89rzO.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Super Sentai",
+    "next_episode_to_air": {
+        "air_date": "2020-07-12",
+        "episode_number": 14,
+        "id": 2337557,
+        "name": "The Solitary Ace",
+        "overview": "",
+        "production_code": "",
+        "season_number": 44,
+        "show_id": 45253,
+        "still_path": "/v5EN5aXNOmtnFj5FvCw2iFZ6qGH.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "networks": [
+        {
+            "name": "tv asahi",
+            "id": 103,
+            "logo_path": "/usmwgnOfBWuzet8vdWe3dfxXlNc.png",
+            "origin_country": "JP"
+        }
+    ],
+    "number_of_episodes": 2181,
+    "number_of_seasons": 44,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "スーパー戦隊シリーズ",
+    "overview": "The Super Sentai Series is the name given to the long-running Japanese superhero team genre of shows produced by Toei Co., Ltd., Toei Agency and Bandai, and aired by TV Asahi. The shows are of the tokusatsu genre, featuring live action characters and colorful special effects, and are aimed mainly at children. The Super Sentai Series is one of the most prominent tokusatsu productions in Japan, alongside the Ultra Series and the Kamen Rider Series, which it currently airs alongside in the Super Hero Time programming block on Sundays. Outside Japan, the Super Sentai Series are best known as the source material for the Power Rangers franchise.",
+    "popularity": 37.937,
+    "poster_path": "/tDq8av51oHR8YWgkiHQ2oeRO5iL.jpg",
+    "production_companies": [
+        {
+            "id": 9300,
+            "logo_path": "/9sSD1XufVCJWAadNiC9Mwu994VD.png",
+            "name": "tv asahi",
+            "origin_country": "JP"
+        },
+        {
+            "id": 5822,
+            "logo_path": "/qyTbRgCyU9NLKvKaiQVbadtr7RY.png",
+            "name": "Toei Company, Ltd.",
+            "origin_country": "JP"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1975-07-26",
+            "episode_count": 76,
+            "id": 53858,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/rw2b0efNb30soxKIe5gU6CWn8md.jpg",
+            "season_number": 0
+        },
+        {
+            "air_date": "1975-04-05",
+            "episode_count": 84,
+            "id": 53859,
+            "name": "Himitsu Sentai Gorenger",
+            "overview": "The first heroes of the Super Sentai series! The heroes were brought together to defend the world from the Black Cross Army, who attempted to conquer the world. The five powers united as one to defeat the monsters.",
+            "poster_path": "/r9zYV5NhGEqacYtdmWdqN7jaUZN.jpg",
+            "season_number": 1
+        },
+        {
+            "air_date": "1977-04-02",
+            "episode_count": 35,
+            "id": 53860,
+            "name": "J.A.K.Q. Dengekitai",
+            "overview": "Cyborg warriors were created by the Special Science Investigation Squad to bear nuclear, gravitational, magnetic, and electrical forces. They fight the crime empire known as Crime.",
+            "poster_path": "/rySnzNxgEfQO7uAdR5r76kCK12F.jpg",
+            "season_number": 2
+        },
+        {
+            "air_date": "1979-02-03",
+            "episode_count": 52,
+            "id": 53861,
+            "name": "Battle Fever J",
+            "overview": "Five agents stand against the evil organization Egos. They fight incorporating dance moves from all around the world! This was the first time giant robots appeared on the Sentai series.",
+            "poster_path": "/AoN5KlOTbGTS5IASInI7gEpiM5O.jpg",
+            "season_number": 3
+        },
+        {
+            "air_date": "1980-02-01",
+            "episode_count": 51,
+            "id": 53862,
+            "name": "Denshi Sentai Denziman",
+            "overview": "Denzimen are warriors who fight against the Vader Clan, a clan that tries to pollute the Earth with sludge. Denzimen fight using the Super Science of the Denzi people. This was the first Sentai series to introduce transforming robots.",
+            "poster_path": "/dm5oKVBlgO7Dzp7Dp8Bo0C10ZKr.jpg",
+            "season_number": 4
+        },
+        {
+            "air_date": "1981-02-07",
+            "episode_count": 51,
+            "id": 53863,
+            "name": "Taiyou Sentai Sun Vulcan",
+            "overview": "A Sentai created by the Earth Peace Defense Squad. They use the three great powers of the sky, sea, and land to fight the Machine Empire Black Magma.",
+            "poster_path": "/suYzsr21Ppn9RNgv40mBA9L6dnV.jpg",
+            "season_number": 5
+        },
+        {
+            "air_date": "1982-02-05",
+            "episode_count": 50,
+            "id": 53864,
+            "name": "Dai Sentai Goggle Five",
+            "overview": "Warriors were chosen to battle the Dark Science Empire Death Dark. They fight using Future Science and their weapons are inspired by gymnastics apparatus.",
+            "poster_path": "/uy6rabS397h0A9zv10BqmqzbFen.jpg",
+            "season_number": 6
+        },
+        {
+            "air_date": "1983-02-04",
+            "episode_count": 51,
+            "id": 53865,
+            "name": "Kagaku Sentai Dynaman",
+            "overview": "Five scientists are defenders of the Earth. They have great dreams and transform using the Dyna Brace.",
+            "poster_path": "/1GKyVY0D2Pgg14FAXeQuZQYcx8O.jpg",
+            "season_number": 7
+        },
+        {
+            "air_date": "1984-02-03",
+            "episode_count": 51,
+            "id": 53866,
+            "name": "Choudenshi Bioman",
+            "overview": "Five descendants of the people showered with Bio Particles by Bio Robots five centuries in the past have become Biomen. They transform with the Bio Brace and fight using their Super Electronic Brains on their masks. Their Bioswords are equipped with sword and gun modes.",
+            "poster_path": "/idcojZXQy1IzK4SfYcnB3S4PLMz.jpg",
+            "season_number": 8
+        },
+        {
+            "air_date": "1985-02-01",
+            "episode_count": 55,
+            "id": 53867,
+            "name": "Dengeki Sentai Changeman",
+            "overview": "The warriors use Earth Force, the power possessed by the Earth, to fight. They transform with the Change Brace to unleash the forces of mythical beasts.",
+            "poster_path": "/akrrvJpi79KPtRpQAOUMAUNxi6F.jpg",
+            "season_number": 9
+        },
+        {
+            "air_date": "1986-03-01",
+            "episode_count": 50,
+            "id": 53868,
+            "name": "Choushinsei Flashman",
+            "overview": "Five soldiers were given special abilities by the Alien Flash Race. They fight using energy of the Prism.",
+            "poster_path": "/cD8s0CC9XU4nDgFHmAJS4zXuLZP.jpg",
+            "season_number": 10
+        },
+        {
+            "air_date": "1987-03-06",
+            "episode_count": 51,
+            "id": 53869,
+            "name": "Hikari Sentai Maskman",
+            "overview": "By transforming with Aura Power, the mysterious forces human beings withhold. Maskmen save the Earth from the attacks of the Underground Empire Tube.",
+            "poster_path": "/8mA9IlEd28d1BL1buolF0f9OYo9.jpg",
+            "season_number": 11
+        },
+        {
+            "air_date": "1988-02-27",
+            "episode_count": 49,
+            "id": 53870,
+            "name": "Choujuu Sentai Liveman",
+            "overview": "\"Friends, why did you do that?\" Yuusuke, Jou, Megumi, Kenji, Gou and Rui are students at Academia but three decide to turn bad and join forces with the evil army Volt. When the defectors return, their three friends are forced to combat them as Choujuu Sentai Liveman. With the help of an android ally named Colon, and a few others along the way, the Liveman must save the world and their friends.",
+            "poster_path": "/ffWzTFoG6vjN9yMpulZZrXvTD6v.jpg",
+            "season_number": 12
+        },
+        {
+            "air_date": "1989-02-24",
+            "episode_count": 51,
+            "id": 53871,
+            "name": "Kousoku Sentai Turboranger",
+            "overview": "Five high school students transform into Turborangers to defend the Earth from the Boma Hundred Tribes, who awoke from a 20,000 year-long sleep. They engage in battle using weapons developed by Doctor Dazai.",
+            "poster_path": "/1SPDUN31QCdyieRLCJXyCrKKV78.jpg",
+            "season_number": 13
+        },
+        {
+            "air_date": "1990-03-01",
+            "episode_count": 48,
+            "id": 53872,
+            "name": "Chikyuu Sentai Fiveman",
+            "overview": "Separated from their parents due to an attack of the Galaxy Imperial Army “Zone”, the transformed result is the Hoshikawa siblings, who with their strong bond will defeat the Zone.",
+            "poster_path": "/oOIpiUr2xfqzFrU25u5JGHe84bZ.jpg",
+            "season_number": 14
+        },
+        {
+            "air_date": "1991-02-14",
+            "episode_count": 51,
+            "id": 53873,
+            "name": "Chōjin Sentai Jetman",
+            "overview": "Five individuals showered by Super Energy Birdonic Waves become the Jetmen. Wearing Birdonic suits, that increase their abilities several-fold, they stand against “Vyrum”, an invader from the Back Dimension.",
+            "poster_path": "/3cRmVzEdQ7FLOMiiCGK0eFRgBl6.jpg",
+            "season_number": 15
+        },
+        {
+            "air_date": "1992-02-21",
+            "episode_count": 50,
+            "id": 53874,
+            "name": "Kyōryū Sentai Zyuranger",
+            "overview": "When the sinister witch Bandora is released from her prison after 170 million years, five warriors from an ancient time arise from their suspended animation to once again defend Earth from Bandora and her evil horde. Armed with enchanted weapons and giant robotic deities known as the Guardian Beasts, it's up to these warriors to defeat Bandora and her monsters before she can exact revenge upon the Earth!",
+            "poster_path": "/2FthG00UTlSf33jXLzYJu95vubG.jpg",
+            "season_number": 16
+        },
+        {
+            "air_date": "1993-02-19",
+            "episode_count": 50,
+            "id": 53875,
+            "name": "Gosei Sentai Dairanger",
+            "overview": "The three Tribes of the Daos Empire - Shura, Dai and Gorma - were peaceful until the Gorma set out to conquer the planet, launching a magical war between the Gorma and Dai Tribes that lasted for centuries. In the end, both civilizations were lost... until now. The evil Gorma have returned. Now, it's up to Master Kaku to assemble a team of kids with high levels of Ch'i to become the protectors of the Earth known as the Dairangers!",
+            "poster_path": "/mLyJ4iVUYr03wzkzh6swqoVJ1gI.jpg",
+            "season_number": 17
+        },
+        {
+            "air_date": "1994-02-18",
+            "episode_count": 53,
+            "id": 53876,
+            "name": "Ninja Sentai Kakuranger",
+            "overview": "It's been a long time since the great war between the Three God Generals and the Youkais, an ancient race of monstrous spirits. Since then, imprisoned in a cave protected by the mystical Seal Door, their leader Daimaou and his Youkai army wait, planning for the day they can finally strike.\n\nThat day has arrived and it is up to the Kakurangers, along with the Three God Generals, to defeat the Youkais, before Daimaou's villainy destroys Earth!",
+            "poster_path": "/7R8cm9mPfIyRYkUP7SMO6k4BoBn.jpg",
+            "season_number": 18
+        },
+        {
+            "air_date": "1995-03-03",
+            "episode_count": 48,
+            "id": 53877,
+            "name": "Chouriki Sentai Ohranger",
+            "overview": "It is the year 1999. The Machine Empire of Baranoia, led by Emperor Bacchus Wrath, has invaded Earth with the intention of wiping out all human life and bringing about machine rule. Chief Counselor Miura of the UAOH (United Airforce Overtech Hardware), in a desperate attempt to quell this invasion, has revived super energies born of the lost civilization of Pangaea. Enlisting an elite squad of the finest officers the UAOH has to offer, Miura has harnessed Tetrahedron Power, granting the team the power to transform into the Ohrangers… and save humanity from its darkest crisis yet!",
+            "poster_path": "/yhaSE6YvlMXmXUKG8TA8YNlsJTg.jpg",
+            "season_number": 19
+        },
+        {
+            "air_date": "1996-03-01",
+            "episode_count": 48,
+            "id": 53878,
+            "name": "Gekisou Sentai Carranger ",
+            "overview": "Dapp, a young alien, is forced to leave his home planet after it is destroyed by a wild gang of thugs who terrorize planets before ultimately blowing them up. When Dapp learns that the gang's next target is Earth, he discovers that five humans posses Carmagic, a special magic that allows the heroes to transformer into the Gekisou Sentai Carranger. They may be the only force on the planet that can save it from the dangerous space gang!",
+            "poster_path": "/eTs7CSYYdW8PNKW9dhRtLpfcwoM.jpg",
+            "season_number": 20
+        },
+        {
+            "air_date": "1997-02-14",
+            "episode_count": 51,
+            "id": 53879,
+            "name": "Denji Sentai Megaranger",
+            "overview": "When his video game prowess is discovered by the International Network of Excel-Science and Technology — or I.N.E.T. — high school student Kenta Date is brought in to lend his expertise to their mysterious research. Meanwhile, four classmates show up, wanting to know more about the I.N.E.T. facility. Their experience will change their lives forever, as I.N.E.T. survives an attack by the nefarious Dr. Hinelar and an army from another dimension determined to conquer our reality!\n\nNow, it's up to Kenta and his four classmates to \"install Megaranger\" and become the team of heroes their video games prepared them to be!",
+            "poster_path": "/myBupbdZ1Ofp307pwRDwfVsNcC0.jpg",
+            "season_number": 21
+        },
+        {
+            "air_date": "1998-02-22",
+            "episode_count": 50,
+            "id": 53880,
+            "name": "Seijuu Sentai Gingaman",
+            "overview": "Three millennia after the first invasion of the Space Pirates Barban, a new set of Gingamen — Hyuuga, Gouki, Hayate, Hikaru, Saya — have been selected to protect the Earth. That is, unless the Barban are able to disrupt the ceremony!",
+            "poster_path": "/zH3Cua4C0eljC0z7ESaewdJPpc.jpg",
+            "season_number": 22
+        },
+        {
+            "air_date": "1999-02-21",
+            "episode_count": 50,
+            "id": 53881,
+            "name": "Kyuukyuu Sentai GoGoFive",
+            "overview": "The Grand Witch Grandiene has been waiting for the day of resurrection, the day when the planets are in alignment so that her children can descend to the Earth and turn it into a realm of darkness! Ten years prior, Professor Tatsumi of the Tatsumi Disaster Prevention Institute had predicted this event, but nobody believed him. He secretly developed and constructed the Rescue System. Now, Professor Tatsumi appears again to give the means to save the world ... and the heroic Kyuukyuu Sentai GoGoFive team springs into action!",
+            "poster_path": "/xLAm3uV10fBiSu0ULzw9wep7Kjp.jpg",
+            "season_number": 23
+        },
+        {
+            "air_date": "2000-02-12",
+            "episode_count": 50,
+            "id": 53882,
+            "name": "Mirai Sentai Timeranger",
+            "overview": "From the year 3000 A.D., came the Timerangers to arrest the Londers Family, who had escaped from prison in the 20th century. The Timerangers consist of cadets from the Time Protection Department and modern-day young individuals.",
+            "poster_path": "/8ZeRPoWVvXiqdMrNF3nJ6L35pHW.jpg",
+            "season_number": 24
+        },
+        {
+            "air_date": "2001-02-17",
+            "episode_count": 51,
+            "id": 53883,
+            "name": "Hyakujuu Sentai Gaoranger",
+            "overview": "The villain Org arose from underground and brought suffering to the people. Then the five Shaman warriors materialized, the Gaorangers.",
+            "poster_path": "/bTaPqyrqYRr1jL4wjL5DRyePFJK.jpg",
+            "season_number": 25
+        },
+        {
+            "air_date": "2002-02-16",
+            "episode_count": 51,
+            "id": 53884,
+            "name": "Ninpuu Sentai Hurricaneger",
+            "overview": "The transformed state of three students attending ninja school is the Hurricanegers, who arose swiftly to defend the Earth from the invasions of the Space-Ninja Group Jakanja. They fight with Storm Ninjutsu.",
+            "poster_path": "/aRrJWeBUYPzUwizfP4yQouO4XH.jpg",
+            "season_number": 26
+        },
+        {
+            "air_date": "2003-02-15",
+            "episode_count": 50,
+            "id": 53885,
+            "name": "Bakuryū Sentai Abaranger",
+            "overview": "They are heroes able to communicate with the Super Evolved Dinosaur. The young individuals filled with hearts of justice, or Dino Guts, transform into Abarangers. The three heroes of AbaRed, AbaBlue, and AbaYellow join hearts with the Dinosaur to defend peace on Earth from invaders, or Evorians, who are from another Earth called Dino Earth.",
+            "poster_path": "/kMiWTBSnfCoOe9BfPWKJRRklCfR.jpg",
+            "season_number": 27
+        },
+        {
+            "air_date": "2004-02-14",
+            "episode_count": 50,
+            "id": 53886,
+            "name": "Tokusou Sentai Dekaranger",
+            "overview": "On Earth, crimes beyond the common sense were increasing dramatically. And the criminals of space, Alienizers, were behind the evil deeds. The space police defend the peace and stability of all space, and so the Earth Branch of Space Police was established to police these criminals. The five special police officers selected from Earth are the Special Investigation Dekarangers.",
+            "poster_path": "/59PuQwyksx3X9IJ39r8oAI20tIW.jpg",
+            "season_number": 28
+        },
+        {
+            "air_date": "2005-02-12",
+            "episode_count": 49,
+            "id": 53887,
+            "name": "Mahou Sentai Magiranger",
+            "overview": "Out of the blue, monsters usually living beneath the Earth’s surface began to attack the terrestrial world. They were called the Underground Hades Empire Infershia. The Ozuki Siblings of Makito, Houka, Urara, Tsubasa, and Kai hear from their mother, Miyuki, that they are the Magicians of Justice to stand against the Infershia. The siblings are perplexed by such an unexpected event. However, without hesitation, Miyuki charges at the Infershia, and the Ozu Siblings are forced to come together to fight as one.",
+            "poster_path": "/9KSpyKIYj20SVyAe7jMNQC6eRHs.jpg",
+            "season_number": 29
+        },
+        {
+            "air_date": "2006-02-18",
+            "episode_count": 49,
+            "id": 53888,
+            "name": "GoGo Sentai Boukenger",
+            "overview": "Every era has an individual that begins a journey seeking the way of the road. The numerous adventures they encounter are harsh, relentless, and life threatening. It is the burning souls of these brave individuals that lead human beings to the future. People called them Adventurers. The Search Guard Successor Foundation collects treasures from all around the world that are scarce and about to be lost forever. Among the treasures, the secretive finds that contained dangerous powers were called “Precious”. If these Precious were to be robbed and utilized by Negative Syndicates, people would be put in serious danger. This is why the S.G.S. will form a secret unit to locate and defend Precious. The name of the unit is Boukengers.",
+            "poster_path": "/kkzNMxUeOPWqBAxqpESw3dMDS65.jpg",
+            "season_number": 30
+        },
+        {
+            "air_date": "2007-02-17",
+            "episode_count": 49,
+            "id": 53889,
+            "name": "Jῡken Sentai Gekiranger",
+            "overview": "Beast-Fist is a form of martial arts where the powers of a beast can be acquired by sensing the beast in their hearts. There are two relative schools of the Beast-Fist. One, the Beast-Fist of justice, Geki Juken Beast Arts. And one, the evil Beast-Fist of Rin Juken Akugata. The two schools of warriors learn and change in order to increase in power every day, as they are destined to clash.",
+            "poster_path": "/uEiqRQxT7E8pMzYFoLXng8MLPKW.jpg",
+            "season_number": 31
+        },
+        {
+            "air_date": "2008-02-16",
+            "episode_count": 50,
+            "id": 53890,
+            "name": "Engine Sentai Go-onger",
+            "overview": "The Barbaric Machine Clan “Gaiark” was exiled from the Machine World by the Engines, who are huge machines that have their own will. With the exile, the Gaiark switched their target to the world of humans and attacked to pollute the Earth in order to make the Earth more habitable for them. This is when three young individuals with hearts of justice stand up as Go-ongers.",
+            "poster_path": "/6Lp58leAlyAuhvHEQaqcyfwIJKQ.jpg",
+            "season_number": 32
+        },
+        {
+            "air_date": "2009-02-14",
+            "episode_count": 49,
+            "id": 53891,
+            "name": "Samurai Sentai Shinkenger",
+            "overview": "Takeru Shiba, the head of the Shiba family and Hikoma Kusakabe call four teenagers in order to battle the Gedoushu. They transform into Shinkengers by using Shodo Phones. Genta Umemori, a childhood friend of Takeru joined Shinkengers as Shinken Gold.",
+            "poster_path": "/cttyaQSBfJyzO24XXfREVL7Lem6.jpg",
+            "season_number": 33
+        },
+        {
+            "air_date": "2010-02-14",
+            "episode_count": 50,
+            "id": 53892,
+            "name": "Tensou Sentai Goseiger",
+            "overview": "The alien invasion force called WARSTAR destroy the Heaven’s Tower, the bridge between the Earth and the Gosei World, home of the Gosei Angels. Five apprentice Gosei Angels who happened to be on the Earth transform into GOSEIGER and fight to defend the Earth.",
+            "poster_path": "/eUX9EwCRZq203tn9tJd4J4Tny3t.jpg",
+            "season_number": 34
+        },
+        {
+            "air_date": "2011-02-13",
+            "episode_count": 51,
+            "id": 53893,
+            "name": "Kaizoku Sentai Gokaiger",
+            "overview": "The pirates called “GOKAIGER” come from space to the Earth to obtain the \"Greatest Treasure in the Universe\". At the same time, Universal Empire Zangyack start to re-invade the Earth. GOKAIGER use the lost powers of the 34 previous Super Sentai teams to fight Zangyack.",
+            "poster_path": "/ztZNq1beaIVu20va4np2PHmyF47.jpg",
+            "season_number": 35
+        },
+        {
+            "air_date": "2012-02-26",
+            "episode_count": 50,
+            "id": 53894,
+            "name": "Tokumei Sentai Go-Busters",
+            "overview": "New A.D. 2012. VAGLASS aims to threaten the city by stealing the Enetron which is a new power source supporting people’s life. GO-BUSTERS will protect the city with their partners, Buddy Roids.",
+            "poster_path": "/9sizFef03DLm1BIe69hvl8yTox0.jpg",
+            "season_number": 36
+        },
+        {
+            "air_date": "2013-02-17",
+            "episode_count": 48,
+            "id": 53895,
+            "name": "Zyuden Sentai Kyōryūger",
+            "overview": "The Deboth Army who invaded the Earth in the time of the dinosaurs has revived. Wise God Torin selects 5 brave individuals who can defeat their respective Zyudenryu and give the powers to become the “People of the Strong Dragons”, KYORYUGER.",
+            "poster_path": "/pIjetSGqCQXZ7zSkDnF4O18aBD6.jpg",
+            "season_number": 37
+        },
+        {
+            "air_date": "2014-02-16",
+            "episode_count": 47,
+            "id": 60664,
+            "name": "Ressha Sentai Toqger",
+            "overview": "The evil empire, Shadow Line appeared to cover the world in darkness. 5 childhood friends who have a great Imagination were selected as TOQGER to fight the Shadow Line.",
+            "poster_path": "/reK8b4UGoJ0t7MufuFTyGysFjVE.jpg",
+            "season_number": 38
+        },
+        {
+            "air_date": "2015-02-22",
+            "episode_count": 47,
+            "id": 64045,
+            "name": "Shuriken Sentai Ninninger",
+            "overview": "The evil warload Gengetsu Kibaoni was defeated 444 years ago by the Last Ninja, the head of the Igasaki Family. In 2015, Kibaoni Army start building up the empire again and try to revive him. 5 Ninjas transform into NINNINGER and fight to prevent the revival of Gengetsu Kibaoni.",
+            "poster_path": "/kOyMz1GCRgShuAtM1Ux3jOiqnmo.jpg",
+            "season_number": 39
+        },
+        {
+            "air_date": "2016-02-14",
+            "episode_count": 48,
+            "id": 74405,
+            "name": "Doubutsu Sentai Zyuohger",
+            "overview": "The human world is attacked by the space outlaw group “Dethgalien” who have chosen the Earth to be the site of their 100th Blood Game. One human and 4 anthropomorphic animal race “Zyuman” awaken their instincts to become ZYUOHGER and fight to protect all living things.",
+            "poster_path": "/hcw0WgfInX7sm6GHC71jvE7icYq.jpg",
+            "season_number": 40
+        },
+        {
+            "air_date": "2017-02-12",
+            "episode_count": 48,
+            "id": 84657,
+            "name": "Uchū Sentai Kyūranger",
+            "overview": "In the far distant future, the Jark Matter organization have conquered space. Meanwhile, the insurgent force called \"Rebellion\" is established and gathers nine alien warriors from across the galaxy who are chosen by the Kyutama, magical balls with the power of the constellations.",
+            "poster_path": "/tH3Q08D8YaNRCEqjXivseRcHRDd.jpg",
+            "season_number": 41
+        },
+        {
+            "air_date": "2018-02-11",
+            "episode_count": 51,
+            "id": 98810,
+            "name": "Kaitou Sentai Lupinranger VS Keisatsu Sentai Patranger",
+            "overview": "The Ganglar have stolen the Lupin Collection, treasures left behind by the famous phantom thief, Arsène Lupin. Phantom thieves are fighting to take back what was lost. Police are fighting to protect the peace.",
+            "poster_path": "/3VkJlLgi2TdsycFE0Ea8NB1GTOp.jpg",
+            "season_number": 42
+        },
+        {
+            "air_date": "2019-03-17",
+            "episode_count": 48,
+            "id": 118588,
+            "name": "Kishiryū Sentai Ryūsoulger",
+            "overview": "",
+            "poster_path": "/AiwlwvPbbwjfqcMF8MZiiADoCQs.jpg",
+            "season_number": 43
+        },
+        {
+            "air_date": "2020-03-08",
+            "episode_count": 15,
+            "id": 142139,
+            "name": "Mashin Sentai Kiramager",
+            "overview": "A princess from the Land of Jewels comes to Earth with the Kirama Stones to find individuals with strong \"shining spirits\" known as Kiramental to become the Kiramagers and fight the threat of the Yodon, an imperial army of darkness.",
+            "poster_path": "/jacbjiPbihcMbMXO3kmVoVilHoS.jpg",
+            "season_number": 44
+        }
+    ],
+    "status": "Returning Series",
+    "type": "Scripted",
+    "vote_average": 4.1,
+    "vote_count": 87
+}

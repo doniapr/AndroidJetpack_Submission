@@ -1,0 +1,344 @@
+{
+    "results": [
+        {
+            "original_name": "The 100",
+            "genres": "Drama, Action & Adventure, Sci-Fi & Fantasy",
+            "name": "The 100",
+            "popularity": 102.574,
+            "origin_country": [
+                "US"
+            ],
+            "vote_count": 3403,
+            "first_air_date": "2014-03-19",
+            "backdrop_path": "/hTExot1sfn7dHZjGrk0Aiwpntxt.jpg",
+            "original_language": "en",
+            "id": 48866,
+            "vote_average": 7.5,
+            "overview": "100 years in the future, when the Earth has been abandoned due to radioactivity, the last surviving humans live on an ark orbiting the planet — but the ark won't last forever. So the repressive regime picks 100 expendable juvenile delinquents to send down to Earth to see if the planet is still habitable.",
+            "poster_path": "/wcaDIAG1QdXQLRaj4vC1EFdBT2.jpg"
+        },
+        {
+            "original_name": "Marvel's Agents of S.H.I.E.L.D.",
+            "genres": "Drama, Action & Adventure, Sci-Fi & Fantasy",
+            "name": "Marvel's Agents of S.H.I.E.L.D.",
+            "popularity": 91.641,
+            "origin_country": [
+                "US"
+            ],
+            "vote_count": 1809,
+            "first_air_date": "2013-09-24",
+            "backdrop_path": "/mUCV0W6TaAk8UWA5yAmqCywC63F.jpg",
+            "original_language": "en",
+            "id": 1403,
+            "vote_average": 7.1,
+            "overview": "Agent Phil Coulson of S.H.I.E.L.D. (Strategic Homeland Intervention, Enforcement and Logistics Division) puts together a team of agents to investigate the new, the strange and the unknown around the globe, protecting the ordinary from the extraordinary.",
+            "poster_path": "/gHUCCMy1vvj58tzE3dZqeC9SXus.jpg"
+        },
+        {
+            "original_name": "American Dad!",
+            "genres": "Animation, Comedy",
+            "name": "American Dad!",
+            "popularity": 78.969,
+            "origin_country": [
+                "US"
+            ],
+            "vote_count": 924,
+            "first_air_date": "2005-02-06",
+            "backdrop_path": "/2OeS0YPFpqCmi7SA5W6aOPIChc3.jpg",
+            "original_language": "en",
+            "id": 1433,
+            "vote_average": 6.4,
+            "overview": "The series focuses on an eccentric motley crew that is the Smith family and their three housemates: Father, husband, and breadwinner Stan Smith; his better half housewife, Francine Smith; their college-aged daughter, Hayley Smith; and their high-school-aged son, Steve Smith. Outside of the Smith family, there are three additional main characters, including Hayley's boyfriend turned husband, Jeff Fischer; the family's man-in-a-goldfish-body pet, Klaus; and most notably the family's zany alien, Roger, who is \"full of masquerades, brazenness, and shocking antics.\"",
+            "poster_path": "/1aklTBd36LFiFNroOSiherLvLdu.jpg"
+        },
+        {
+            "original_name": "仮面ライダ",
+            "id": 2661,
+            "name": "Kamen Rider",
+            "popularity": 93.505,
+            "vote_count": 40,
+            "vote_average": 5.3,
+            "first_air_date": "1971-04-03",
+            "poster_path": "/o57T19zgZakEpre3d9ddy1UZonp.jpg",
+            "genres": "Action & Adventure, Drama, Sci-Fi & Fantasy",
+            "original_language": "ja",
+            "backdrop_path": "/73vNiJs4j33A8Oieu0DhSnPTJj8.jpg",
+            "overview": "A Japanese anthology series centered around a man who transforms into a bug-themed superhero.",
+            "origin_country": [
+                "JP"
+            ]
+        },
+        {
+            "original_name": "ポケモン",
+            "genres": "Animation, Action & Adventure, Sci-Fi & Fantasy",
+            "name": "Pokémon",
+            "popularity": 69.157,
+            "origin_country": [
+                "JP"
+            ],
+            "vote_count": 343,
+            "first_air_date": "1997-04-01",
+            "backdrop_path": "/tvjCdVRkaaab2ezM9BctkAOXeyW.jpg",
+            "original_language": "ja",
+            "id": 60572,
+            "vote_average": 6.8,
+            "overview": "Join Ash Ketchum, accompanied by his partner Pikachu, as he travels through many regions, meets new friends and faces new challenges on his quest to become a Pokémon Master.",
+            "poster_path": "/2AoqUTKKN4kjNe1K0kIPwiItHwv.jpg"
+        },
+        {
+            "original_name": "WWE Raw",
+            "genres": "Reality",
+            "name": "WWE Raw",
+            "popularity": 64.022,
+            "origin_country": [
+                "US"
+            ],
+            "vote_count": 174,
+            "first_air_date": "1993-01-11",
+            "backdrop_path": "/l6ci9v4XC6DCTlZG8NiufRBx3kG.jpg",
+            "original_language": "en",
+            "id": 4656,
+            "vote_average": 6.2,
+            "overview": "WWE Raw is a professional wrestling television program that currently airs live on Monday evenings on the USA Network in the United States. The show debuted on January 11, 1993. WWE Raw moved from the USA Network to TNN in September, 2000 and then to Spike TV in August, 2003 when TNN was rebranded. On October 3, 2005 WWE Raw returned to the USA Network.\n\nSince its first episode, WWE Raw has broadcast live from 203 different arenas in 169 cities and towns in ten different nations. As of the show's 1,000th episode, airing on July 23, 2012, WWE Raw has become a three-hour broadcast from two-hours, a format that had previously been reserved for special episodes.",
+            "poster_path": "/2bZ5c9sHbzApWVIsUoWztg43EgB.jpg"
+        },
+        {
+            "original_name": "Doom Patrol",
+            "genres": "Action & Adventure, Sci-Fi & Fantasy",
+            "name": "Doom Patrol",
+            "popularity": 48.406,
+            "origin_country": [
+                "US"
+            ],
+            "vote_count": 478,
+            "first_air_date": "2019-02-15",
+            "backdrop_path": "/rqHL4HsLCix9H6vhCwAuSOge0NS.jpg",
+            "original_language": "en",
+            "id": 79501,
+            "vote_average": 7.3,
+            "overview": "The Doom Patrol’s members each suffered horrible accidents that gave them superhuman abilities — but also left them scarred and disfigured. Traumatized and downtrodden, the team found purpose through The Chief, who brought them together to investigate the weirdest phenomena in existence — and to protect Earth from what they find.",
+            "poster_path": "/drlfSCIlMKrEeMPhi8pqY4xGxj.jpg"
+        },
+        {
+            "original_name": "Sesame Street",
+            "genres": "Comedy, Kids",
+            "name": "Sesame Street",
+            "popularity": 59.644,
+            "origin_country": [
+                "US"
+            ],
+            "vote_count": 125,
+            "first_air_date": "1969-11-10",
+            "backdrop_path": "/rYlCELMEo1IFfjJB6EP1ket8gM.jpg",
+            "original_language": "en",
+            "id": 502,
+            "vote_average": 7.2,
+            "overview": "On a special inner city street, the inhabitants—human and muppet—teach preschoolers basic educational and social concepts using comedy, cartoons, games, and songs.",
+            "poster_path": "/xNWfDneXNj4EJjqFR1gFbM3wbnc.jpg"
+        },
+        {
+            "original_name": "Stargirl",
+            "genres": "Crime, Drama, Action & Adventure, Sci-Fi & Fantasy",
+            "name": "Stargirl",
+            "popularity": 35.299,
+            "origin_country": [
+                "US"
+            ],
+            "vote_count": 411,
+            "first_air_date": "2020-05-18",
+            "backdrop_path": "/b5lKppEquuQWm6fTjGcu2g8FJgs.jpg",
+            "original_language": "en",
+            "id": 80986,
+            "vote_average": 8,
+            "overview": "Courtney Whitmore, a smart, athletic and above all else kind girl, discovers her step-father has a secret: he used to be the sidekick to a superhero. \"Borrowing\" the long-lost hero’s cosmic staff, she becomes the unlikely inspiration for an entirely new generation of superheroes.",
+            "poster_path": "/sWSGc3Bb7aCTOPvAIkkhqI7ae9H.jpg"
+        },
+        {
+            "original_name": "スーパー戦隊シリーズ",
+            "id": 45253,
+            "name": "Super Sentai",
+            "popularity": 42.79,
+            "vote_count": 87,
+            "vote_average": 4.1,
+            "first_air_date": "1975-04-05",
+            "poster_path": "/tDq8av51oHR8YWgkiHQ2oeRO5iL.jpg",
+            "genres": "Action & Adventure, Sci-Fi & Fantasy",
+            "original_language": "ja",
+            "backdrop_path": "/dHlKH9vTumj7tPBeYVWGzI7UJ9I.jpg",
+            "overview": "The Super Sentai Series is the name given to the long-running Japanese superhero team genre of shows produced by Toei Co., Ltd., Toei Agency and Bandai, and aired by TV Asahi. The shows are of the tokusatsu genre, featuring live action characters and colorful special effects, and are aimed mainly at children. The Super Sentai Series is one of the most prominent tokusatsu productions in Japan, alongside the Ultra Series and the Kamen Rider Series, which it currently airs alongside in the Super Hero Time programming block on Sundays. Outside Japan, the Super Sentai Series are best known as the source material for the Power Rangers franchise.",
+            "origin_country": [
+                "JP"
+            ]
+        },
+        {
+            "original_name": "Snowpiercer",
+            "genres": "Sci-Fi & Fantasy",
+            "name": "Snowpiercer",
+            "popularity": 32.169,
+            "origin_country": [
+                "US"
+            ],
+            "vote_count": 219,
+            "first_air_date": "2020-05-17",
+            "backdrop_path": "/dJBKKbrQIqcQ9EUbdM48dM8mso6.jpg",
+            "original_language": "en",
+            "id": 79680,
+            "vote_average": 7.6,
+            "overview": "Set more than seven years after the world has become a frozen wasteland, the remnants of humanity inhabit a gigantic, perpetually-moving train that circles the globe as class warfare, social injustice and the politics of survival play out.",
+            "poster_path": "/n6UNHZoiYj81abwmG38HbNjflDx.jpg"
+        },
+        {
+            "original_name": "QI",
+            "genres": "Comedy, Talk",
+            "name": "QI",
+            "popularity": 50.332,
+            "origin_country": [
+                "GB"
+            ],
+            "vote_count": 128,
+            "first_air_date": "2003-09-11",
+            "backdrop_path": "/uA62IypAzFWNloocQcsUfvp4Jh.jpg",
+            "original_language": "en",
+            "id": 1554,
+            "vote_average": 8.1,
+            "overview": "Comedy quiz show full of quirky facts, in which contestants are rewarded more if their answers are 'quite interesting'.",
+            "poster_path": "/hieAAv1MVYzRuX12ttVmlq7kGn9.jpg"
+        },
+        {
+            "original_name": "Re：ゼロから始める異世界生活",
+            "genres": "Animation, Comedy, Drama, Action & Adventure, Sci-Fi & Fantasy",
+            "name": "Re:ZERO -Starting Life in Another World-",
+            "popularity": 43.284,
+            "origin_country": [
+                "JP"
+            ],
+            "vote_count": 108,
+            "first_air_date": "2016-04-04",
+            "backdrop_path": "/ai8bVS8Suvu4ErBhmgBvtESirBY.jpg",
+            "original_language": "ja",
+            "id": 65942,
+            "vote_average": 7.5,
+            "overview": "Natsuki Subaru, an ordinary high school  student, is on his way home from the convenience store when he finds  himself transported to another world. As he's lost and confused in a new  world where he doesn't even know left from right, the only person to  reach out to him was a beautiful girl with silver hair. Determined to  repay her somehow for saving him from his own despair, Subaru agrees to  help the girl find something she's looking for.",
+            "poster_path": "/5DZa4aDH5MZGcZDf8ouTxm2kH2Y.jpg"
+        },
+        {
+            "original_name": "Little Voice",
+            "id": 103783,
+            "name": "Little Voice",
+            "popularity": 37.642,
+            "vote_count": 0,
+            "vote_average": 0,
+            "first_air_date": "2020-07-10",
+            "poster_path": "/vxzWAyNw7T7r7a6aQdPe2bahMPh.jpg",
+            "genres": "Drama, Comedy",
+            "original_language": "en",
+            "backdrop_path": "/wRDOlYGIEqeupAaggkMfjiuib1j.jpg",
+            "overview": "A love letter to the diverse musicality of New York and an exploration the universal journey of finding your authentic voice in your early 20s — and the courage to use it.",
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "original_name": "Condor",
+            "genres": "Drama",
+            "name": "Condor",
+            "popularity": 33.869,
+            "origin_country": [
+                "US"
+            ],
+            "vote_count": 76,
+            "first_air_date": "2018-06-06",
+            "backdrop_path": "/fc9ebsTmVCvv6jjD2qT7rWazaej.jpg",
+            "original_language": "en",
+            "id": 71146,
+            "vote_average": 6.5,
+            "overview": "Young CIA analyst Joe Turner has his idealism tested when he learns that the CIA has been using an algorithm he developed to spy on American citizens, leading the organization to a terrorist plot that threatens the lives of millions.  Inspired by Sydney Pollack’s 1975 political thriller Three Days of the Condor.",
+            "poster_path": "/28cIK70tN2t4gPTV8CBQZED1H2G.jpg"
+        },
+        {
+            "original_name": "Yellowstone",
+            "genres": "Drama, Western",
+            "name": "Yellowstone",
+            "popularity": 27.281,
+            "origin_country": [
+                "US"
+            ],
+            "vote_count": 108,
+            "first_air_date": "2018-06-20",
+            "backdrop_path": "/oBilGalyrQJTtDuYIljRQGNXXb8.jpg",
+            "original_language": "en",
+            "id": 73586,
+            "vote_average": 7.8,
+            "overview": "Follow the violent world of the Dutton family, who controls the largest contiguous ranch in the United States. Led by their patriarch John Dutton, the family defends their property against constant attack by land developers, an Indian reservation, and America’s first National Park.",
+            "poster_path": "/43nVQqVsrshaOx9GfJq6JstsfCX.jpg"
+        },
+        {
+            "original_name": "WWE NXT",
+            "id": 31991,
+            "name": "WWE NXT",
+            "popularity": 38.601,
+            "vote_count": 45,
+            "vote_average": 6.2,
+            "first_air_date": "2010-02-23",
+            "poster_path": "/yh6cpWfIaiNbZDlqTjjzv7OSooV.jpg",
+            "genres": "Action & Adventure, Drama",
+            "original_language": "en",
+            "backdrop_path": "/oO36eZ1AX3SikQ6FDpQ7df4T5IT.jpg",
+            "overview": "Wrestlers will portray heroes or villains as they follow a series of events that build tension and culminate in a wrestling match or series of matches.",
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "original_name": "彼女、お借りします",
+            "genres": "Animation, Comedy",
+            "name": "Rent-a-Girlfriend",
+            "popularity": 32.689,
+            "origin_country": [
+                "JP"
+            ],
+            "vote_count": 2,
+            "first_air_date": "2020-07-10",
+            "backdrop_path": "/yozfbzwLhGe81YKTDoNDRdJrIuC.jpg",
+            "original_language": "ja",
+            "id": 96316,
+            "vote_average": 5,
+            "overview": "In today's Japan, \"rental\" services can deliver an afternoon with a \"friend,\" a \"parent,\" even a fake girlfriend! Kinoshita Kazuya is a 20-year-old failure of a college student. He managed to kiss his girlfriend once, but was dumped after a month.  Completely spiteful, Kazuya gets just desperate enough to give it a try. But he quickly discovers how complicated it can be to \"rent\" an emotional connection... and his new \"girlfriend\", Mizuhara Chizuru, who's trying to keep her side hustle secret, will panic when she finds out her real life and Kazuya's are intertwined in surprising ways! A reckless rom-com filled with love and excitement is about to begin!",
+            "poster_path": "/lZtfm5fLdwiMusZqoY9vf8Rjtz1.jpg"
+        },
+        {
+            "original_name": "宇崎ちゃんは遊びたい！",
+            "genres": "Animation, Comedy",
+            "name": "Uzaki-chan Wants to Hang Out!",
+            "popularity": 31.947,
+            "origin_country": [
+                "JP"
+            ],
+            "vote_count": 2,
+            "first_air_date": "2020-07-10",
+            "backdrop_path": "/4XZGGgOTj7PcWfpF7kSnVHUE49g.jpg",
+            "original_language": "ja",
+            "id": 98986,
+            "vote_average": 9,
+            "overview": "University student Shinichi Sakurai is comfortable being an introverted loner and doesn’t care what others think. Buxom underclassmen Hana Uzaki doesn’t understand this one bit. A tornado of joy, she’s taken it upon herself to make him more social. Starting to enjoy her company, he’d concede that they’re friends. Can it be possible to have as much fun with another person as he would by himself?",
+            "poster_path": "/4EBxanQHK1fSYsdeRVpBAGeknFN.jpg"
+        },
+        {
+            "original_name": "Perry Mason",
+            "genres": "Crime, Drama, Mystery",
+            "name": "Perry Mason",
+            "popularity": 22.981,
+            "origin_country": [
+                "US"
+            ],
+            "vote_count": 52,
+            "first_air_date": "2020-06-21",
+            "backdrop_path": "/jGwCKq2EbQbsgNTBM2NoEzFHRdh.jpg",
+            "original_language": "en",
+            "id": 85853,
+            "vote_average": 7.3,
+            "overview": "Set in 1932 Los Angeles, the series focuses on the origin story of famed defense lawyer Perry Mason. Living check-to-check as a low-rent private investigator, Mason is haunted by his wartime experiences in France and suffering the effects of a broken marriage. L.A. is booming while the rest of the country recovers from the Great Depression — but a kidnapping gone very wrong leads to Mason exposing a fractured city as he uncovers the truth of the crime.",
+            "poster_path": "/gPBf35AqvXHvKEpDHaQ4D9xXxeX.jpg"
+        }
+    ]
+}

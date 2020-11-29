@@ -1,0 +1,44 @@
+{
+    "adult": false,
+    "backdrop_path": "/A47BxbWFfQAKvVsZwiMuuF34s9R.jpg",
+    "belongs_to_collection": {
+        "id": 534180,
+        "name": "Dead River Collection",
+        "poster_path": "/bfT1GrTSxHfFTkb6xVxAkLGb8nU.jpg",
+        "backdrop_path": "/pbmIiEpNhP5H9WRnh5XNqigDXmZ.jpg"
+    },
+    "budget": 0,
+    "genres": "Horror, Mystery",
+    "homepage": "",
+    "id": 529149,
+    "imdb_id": "tt8396294",
+    "original_language": "en",
+    "original_title": "Darlin'",
+    "overview": "Found at a Catholic hospital filthy and ferocious, feral teenager Darlin’ is whisked off to a care home run by The Bishop and his obedient nuns, where she’s to be rehabilitated into a \"good girl\" as an example of the miraculous work of the church. But Darlin’ holds a secret darker than the \"sins\" she is threatened with, and she is not traveling alone. The Woman who raised her, equally fierce and feral, is ever present in the shadows of Darlin’s psyche and is determined to come for her no matter who tries to get in her way.",
+    "popularity": 48.128,
+    "poster_path": "/hnNjlXAQan8WdNtQMfdldAGoqMF.jpg",
+    "production_companies": [
+        {
+            "id": 89268,
+            "logo_path": null,
+            "name": "Hood River Entertainment",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2020-07-10",
+    "revenue": 0,
+    "runtime": 101,
+    "spoken_languages": [],
+    "status": "Released",
+    "tagline": "Don't mess with mother's nature.",
+    "title": "Darlin'",
+    "video": false,
+    "vote_average": 4.3,
+    "vote_count": 3
+}

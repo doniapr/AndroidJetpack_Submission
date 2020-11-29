@@ -1,0 +1,60 @@
+{
+    "adult": false,
+    "backdrop_path": "/eIqyISB5j99OSRZUuvdN9g2bBsS.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": "Action, Drama",
+    "homepage": "",
+    "id": 619592,
+    "imdb_id": "tt10308928",
+    "original_language": "en",
+    "original_title": "Force of Nature",
+    "overview": "A gang of thieves plan a heist during a hurricane and encounter trouble when a disgraced cop tries to force everyone in the building to evacuate.",
+    "popularity": 37.745,
+    "poster_path": "/ucktgbaMSaETUDLUBp1ubGD6aNj.jpg",
+    "production_companies": [
+        {
+            "id": 73685,
+            "logo_path": null,
+            "name": "Emmett Furla Oasis Films",
+            "origin_country": "US"
+        },
+        {
+            "id": 290,
+            "logo_path": "/Q8mw2AOQQc8Qg0uNwLWq86DVZv.png",
+            "name": "Ingenious Media",
+            "origin_country": "GB"
+        },
+        {
+            "id": 121423,
+            "logo_path": null,
+            "name": "Blue Box International",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2020-07-02",
+    "revenue": 0,
+    "runtime": 91,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "iso_639_1": "es",
+            "name": "Español"
+        }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Force of Nature",
+    "video": false,
+    "vote_average": 5.6,
+    "vote_count": 59
+}

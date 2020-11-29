@@ -1,15 +1,15 @@
 package com.doniapr.moviecatalogue.ui.movie
 
-import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
 import com.doniapr.moviecatalogue.R
-import com.doniapr.moviecatalogue.ui.detail.DetailActivity
+import com.doniapr.moviecatalogue.di.ViewModelFactory
 import kotlinx.android.synthetic.main.fragment_movie.*
 
 /**
@@ -25,28 +25,27 @@ class MovieFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_movie, container, false)
     }
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
         if (activity != null) {
+            val factory = ViewModelFactory.getInstance(requireActivity())
             val movieViewModel = ViewModelProvider(
                 this,
-                ViewModelProvider.NewInstanceFactory()
+                factory
             )[MovieViewModel::class.java]
-            val movies = movieViewModel.getMovie()
 
-            val adapter =
-                MovieAdapter(movies) {
-                    val intent = Intent(context, DetailActivity::class.java).apply {
-                        putExtra(DetailActivity.DETAIL_ID, it.title)
-                        putExtra(DetailActivity.TYPE, context?.resources?.getString(R.string.movie))
-                    }
-                    context?.startActivity(intent)
-                }
+            val movieAdapter = MovieAdapter()
+            progressbar_movie.visibility = View.VISIBLE
+            movieViewModel.getMovie().observe(this, Observer {
+                movieAdapter.setData(it)
+                movieAdapter.notifyDataSetChanged()
+                progressbar_movie.visibility = View.GONE
+            })
 
             with(rv_movie) {
                 layoutManager = GridLayoutManager(context, 2)
                 setHasFixedSize(true)
-                this.adapter = adapter
+                this.adapter = movieAdapter
             }
         }
     }
